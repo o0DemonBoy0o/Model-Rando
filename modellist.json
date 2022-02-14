@@ -1,0 +1,51 @@
+{
+	"Sora": [
+		"P_EX100",
+		"P_EX100_BTLF",
+		"P_EX100_MAGF",
+		"P_EX100_KH1F",
+		"P_EX100_TRIF",
+		"P_EX100_ULTF",
+		"P_EX100_HTLF",
+		"P_EX100_NM",
+		"P_EX100_NM_BTLF",
+		"P_EX100_NM_MAGF",
+		"P_EX100_NM_KH1F",
+		"P_EX100_NM_TRIF",
+		"P_EX100_NM_ULTF",
+		"P_EX100_NM_HTLF",
+		"P_EX100_TR",
+		"P_EX100_TR_BTLF",
+		"P_EX100_TR_MAGF",
+		"P_EX100_TR_KH1F",
+		"P_EX100_TR_TRIF",
+		"P_EX100_TR_ULTF",
+		"P_EX100_TR_HTLF",
+		"P_EX100_WI",
+		"P_EX100_WI_BTLF",
+		"P_EX100_WI_MAGF",
+		"P_EX100_WI_KH1F",
+		"P_EX100_WI_TRIF",
+		"P_EX100_WI_ULTF",
+		"P_EX100_WI_HTLF",
+		"P_EX100_XM",
+		"P_EX100_XM_BTLF",
+		"P_EX100_XM_MAGF",
+		"P_EX100_XM_KH1F",
+		"P_EX100_XM_TRIF",
+		"P_EX100_XM_ULTF",
+		"P_EX100_XM_HTLF"
+	],
+	"Donald": [
+		"P_EX020",
+		"P_EX020_NM",
+		"P_EX020_TR",
+		"P_EX020_XM"
+	],
+	"Goofy": [
+		"P_EX030",
+		"P_EX030_NM",
+		"P_EX030_TR",
+		"P_EX030_XM"
+	]
+}
