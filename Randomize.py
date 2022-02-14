@@ -9,7 +9,7 @@ def writemdlx(): #Avoid conflict with Wisdom Form
             '    - name: obj/'+new+'.model\n') #Model
     f.write('  - name: tim_\n    type: modeltexture\n    method: copy\n    source:\n'+
             '    - name: obj/'+new+'.tim\n') #Texture
-def writeafm(sqd=False):
+def writeafm():
     f.write('- name: obj/'+old+'.a.fm\n  method: binarc\n  source:\n')
     f.write('  - name: face\n    type: imgd\n    method: copy\n    source:\n'+
             '    - name: obj/'+new+'.imd\n') #Portrait
@@ -36,7 +36,7 @@ for i in range(len(oldsora)):
     old = oldsora[i]
     new = newsora[i]
     writemdlx()
-    writeafm(True)
+    writeafm()
 for i in range(len(olddolan)):
     old = olddolan[i]
     new = newdolan[i]
