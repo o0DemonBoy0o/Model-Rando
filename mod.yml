@@ -6,12 +6,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_WI_HTLF.model
+    - name: obj/P_EX100.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_WI_HTLF.tim
+    - name: obj/P_EX100.tim
 - name: obj/P_EX100.a.fm
   method: binarc
   source:
@@ -19,12 +19,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_WI_HTLF.imd
+    - name: obj/P_EX100.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_WI_HTLF.sqd
+    - name: obj/P_EX100.sqd
 - name: obj/P_EX100_BTLF.mdlx
   method: binarc
   source:
@@ -32,12 +32,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_XM_ULTF.model
+    - name: obj/P_EX100_NM_KH1F.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_XM_ULTF.tim
+    - name: obj/P_EX100_NM_KH1F.tim
 - name: obj/P_EX100_BTLF.a.fm
   method: binarc
   source:
@@ -45,12 +45,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_XM_ULTF.imd
+    - name: obj/P_EX100_NM_KH1F.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_XM_ULTF.sqd
+    - name: obj/P_EX100_NM_KH1F.sqd
 - name: obj/P_EX100_MAGF.mdlx
   method: binarc
   source:
@@ -58,12 +58,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/AL14_PLAYER.model
+    - name: obj/P_EX100_TR.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/AL14_PLAYER.tim
+    - name: obj/P_EX100_TR.tim
 - name: obj/P_EX100_MAGF.a.fm
   method: binarc
   source:
@@ -71,12 +71,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/AL14_PLAYER.imd
+    - name: obj/P_EX100_TR.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/AL14_PLAYER.sqd
+    - name: obj/P_EX100_TR.sqd
 - name: obj/P_EX100_KH1F.mdlx
   method: binarc
   source:
@@ -84,12 +84,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_AL_CARPET.model
+    - name: obj/P_EX100_NM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_AL_CARPET.tim
+    - name: obj/P_EX100_NM.tim
 - name: obj/P_EX100_KH1F.a.fm
   method: binarc
   source:
@@ -97,195 +97,13 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_AL_CARPET.imd
+    - name: obj/P_EX100_NM.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_AL_CARPET.sqd
+    - name: obj/P_EX100_NM.sqd
 - name: obj/P_EX100_TRIF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_BTLF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_BTLF.tim
-- name: obj/P_EX100_TRIF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_BTLF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_BTLF.sqd
-- name: obj/P_EX100_ULTF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_ULTF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_ULTF.tim
-- name: obj/P_EX100_ULTF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_ULTF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_ULTF.sqd
-- name: obj/P_EX100_HTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_HTLF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_HTLF.tim
-- name: obj/P_EX100_HTLF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_HTLF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_HTLF.sqd
-- name: obj/P_EX100_NM.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_WI.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_WI.tim
-- name: obj/P_EX100_NM.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI.sqd
-- name: obj/P_EX100_NM_BTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_ULTF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_ULTF.tim
-- name: obj/P_EX100_NM_BTLF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_ULTF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_ULTF.sqd
-- name: obj/P_EX100_NM_MAGF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_TRIF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_TRIF.tim
-- name: obj/P_EX100_NM_MAGF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_TRIF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_TRIF.sqd
-- name: obj/P_EX100_NM_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_ULTF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_ULTF.tim
-- name: obj/P_EX100_NM_KH1F.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_ULTF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_ULTF.sqd
-- name: obj/P_EX100_NM_TRIF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -298,7 +116,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_MAGF.tim
-- name: obj/P_EX100_NM_TRIF.a.fm
+- name: obj/P_EX100_TRIF.a.fm
   method: binarc
   source:
   - name: face
@@ -311,6 +129,188 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_MAGF.sqd
+- name: obj/P_EX100_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.tim
+- name: obj/P_EX100_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.sqd
+- name: obj/P_EX100_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/AL14_PLAYER.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/AL14_PLAYER.tim
+- name: obj/P_EX100_HTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/AL14_PLAYER.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/AL14_PLAYER.sqd
+- name: obj/P_EX100_NM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_ULTF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_ULTF.tim
+- name: obj/P_EX100_NM.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_ULTF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_ULTF.sqd
+- name: obj/P_EX100_NM_BTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_BTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_BTLF.tim
+- name: obj/P_EX100_NM_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_BTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_BTLF.sqd
+- name: obj/P_EX100_NM_MAGF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_MAGF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_MAGF.tim
+- name: obj/P_EX100_NM_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_MAGF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_MAGF.sqd
+- name: obj/P_EX100_NM_KH1F.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_HTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_HTLF.tim
+- name: obj/P_EX100_NM_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_HTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_HTLF.sqd
+- name: obj/P_EX100_NM_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_BTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_BTLF.tim
+- name: obj/P_EX100_NM_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_BTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_BTLF.sqd
 - name: obj/P_EX100_NM_ULTF.mdlx
   method: binarc
   source:
@@ -318,12 +318,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_TR_KH1F.model
+    - name: obj/P_EX100_NM_TRIF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_TR_KH1F.tim
+    - name: obj/P_EX100_NM_TRIF.tim
 - name: obj/P_EX100_NM_ULTF.a.fm
   method: binarc
   source:
@@ -331,12 +331,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_TR_KH1F.imd
+    - name: obj/P_EX100_NM_TRIF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_TR_KH1F.sqd
+    - name: obj/P_EX100_NM_TRIF.sqd
 - name: obj/P_EX100_NM_HTLF.mdlx
   method: binarc
   source:
@@ -344,12 +344,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/PO06_PLAYER.model
+    - name: obj/P_EX100_TR_HTLF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/PO06_PLAYER.tim
+    - name: obj/P_EX100_TR_HTLF.tim
 - name: obj/P_EX100_NM_HTLF.a.fm
   method: binarc
   source:
@@ -357,12 +357,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/PO06_PLAYER.imd
+    - name: obj/P_EX100_TR_HTLF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/PO06_PLAYER.sqd
+    - name: obj/P_EX100_TR_HTLF.sqd
 - name: obj/P_EX100_TR.mdlx
   method: binarc
   source:
@@ -370,12 +370,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_XM_TRIF.model
+    - name: obj/P_EX100_NM_BTLF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_XM_TRIF.tim
+    - name: obj/P_EX100_NM_BTLF.tim
 - name: obj/P_EX100_TR.a.fm
   method: binarc
   source:
@@ -383,13 +383,39 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_XM_TRIF.imd
+    - name: obj/P_EX100_NM_BTLF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_XM_TRIF.sqd
+    - name: obj/P_EX100_NM_BTLF.sqd
 - name: obj/P_EX100_TR_BTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.tim
+- name: obj/P_EX100_TR_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.sqd
+- name: obj/P_EX100_TR_MAGF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -402,7 +428,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_KH1F.tim
-- name: obj/P_EX100_TR_BTLF.a.fm
+- name: obj/P_EX100_TR_MAGF.a.fm
   method: binarc
   source:
   - name: face
@@ -415,32 +441,6 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_KH1F.sqd
-- name: obj/P_EX100_TR_MAGF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_TRIF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_TRIF.tim
-- name: obj/P_EX100_TR_MAGF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_TRIF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_TRIF.sqd
 - name: obj/P_EX100_TR_KH1F.mdlx
   method: binarc
   source:
@@ -448,12 +448,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_BTLF.model
+    - name: obj/P_EX100_WI_KH1F.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_BTLF.tim
+    - name: obj/P_EX100_WI_KH1F.tim
 - name: obj/P_EX100_TR_KH1F.a.fm
   method: binarc
   source:
@@ -461,12 +461,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_BTLF.imd
+    - name: obj/P_EX100_WI_KH1F.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_BTLF.sqd
+    - name: obj/P_EX100_WI_KH1F.sqd
 - name: obj/P_EX100_TR_TRIF.mdlx
   method: binarc
   source:
@@ -526,195 +526,13 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100.tim
-- name: obj/P_EX100_TR_HTLF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100.sqd
-- name: obj/P_EX100_WI.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_TR.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_TR.tim
-- name: obj/P_EX100_WI.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR.sqd
-- name: obj/P_EX100_WI_BTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_HTLF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_HTLF.tim
-- name: obj/P_EX100_WI_BTLF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_HTLF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM_HTLF.sqd
-- name: obj/P_EX100_WI_MAGF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_LIGHTCYCLE.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_LIGHTCYCLE.tim
-- name: obj/P_EX100_WI_MAGF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_LIGHTCYCLE.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_TR_LIGHTCYCLE.sqd
-- name: obj/P_EX100_WI_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_NM.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_NM.tim
-- name: obj/P_EX100_WI_KH1F.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_NM.sqd
-- name: obj/P_EX100_WI_TRIF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_KH1F.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_KH1F.tim
-- name: obj/P_EX100_WI_TRIF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_KH1F.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_WI_KH1F.sqd
-- name: obj/P_EX100_WI_ULTF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_XM_HTLF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_XM_HTLF.tim
-- name: obj/P_EX100_WI_ULTF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_XM_HTLF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_XM_HTLF.sqd
-- name: obj/P_EX100_WI_HTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
     - name: obj/P_EX100_XM_MAGF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
     - name: obj/P_EX100_XM_MAGF.tim
-- name: obj/P_EX100_WI_HTLF.a.fm
+- name: obj/P_EX100_TR_HTLF.a.fm
   method: binarc
   source:
   - name: face
@@ -727,59 +545,33 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_MAGF.sqd
-- name: obj/P_EX100_XM.mdlx
+- name: obj/P_EX100_WI.mdlx
   method: binarc
   source:
   - name: p_ex
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_WI_MAGF.model
+    - name: obj/P_EX100_TRIF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_WI_MAGF.tim
-- name: obj/P_EX100_XM.a.fm
+    - name: obj/P_EX100_TRIF.tim
+- name: obj/P_EX100_WI.a.fm
   method: binarc
   source:
   - name: face
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_WI_MAGF.imd
+    - name: obj/P_EX100_TRIF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_WI_MAGF.sqd
-- name: obj/P_EX100_XM_BTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj/P_EX100_HTLF.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX100_HTLF.tim
-- name: obj/P_EX100_XM_BTLF.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX100_HTLF.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX100_HTLF.sqd
-- name: obj/P_EX100_XM_MAGF.mdlx
+    - name: obj/P_EX100_TRIF.sqd
+- name: obj/P_EX100_WI_BTLF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -792,7 +584,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM.tim
-- name: obj/P_EX100_XM_MAGF.a.fm
+- name: obj/P_EX100_WI_BTLF.a.fm
   method: binarc
   source:
   - name: face
@@ -805,33 +597,85 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM.sqd
-- name: obj/P_EX100_XM_KH1F.mdlx
+- name: obj/P_EX100_WI_MAGF.mdlx
   method: binarc
   source:
   - name: p_ex
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_NM_TRIF.model
+    - name: obj/PO06_PLAYER.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_NM_TRIF.tim
-- name: obj/P_EX100_XM_KH1F.a.fm
+    - name: obj/PO06_PLAYER.tim
+- name: obj/P_EX100_WI_MAGF.a.fm
   method: binarc
   source:
   - name: face
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_NM_TRIF.imd
+    - name: obj/PO06_PLAYER.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_NM_TRIF.sqd
-- name: obj/P_EX100_XM_TRIF.mdlx
+    - name: obj/PO06_PLAYER.sqd
+- name: obj/P_EX100_WI_KH1F.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_KH1F.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_KH1F.tim
+- name: obj/P_EX100_WI_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_KH1F.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_KH1F.sqd
+- name: obj/P_EX100_WI_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_ULTF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_ULTF.tim
+- name: obj/P_EX100_WI_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_ULTF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_ULTF.sqd
+- name: obj/P_EX100_WI_ULTF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -844,7 +688,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_ULTF.tim
-- name: obj/P_EX100_XM_TRIF.a.fm
+- name: obj/P_EX100_WI_ULTF.a.fm
   method: binarc
   source:
   - name: face
@@ -857,6 +701,162 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_ULTF.sqd
+- name: obj/P_EX100_WI_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_HTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_HTLF.tim
+- name: obj/P_EX100_WI_HTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_HTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_HTLF.sqd
+- name: obj/P_EX100_XM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_HTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_HTLF.tim
+- name: obj/P_EX100_XM.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_HTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_HTLF.sqd
+- name: obj/P_EX100_XM_BTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_TRIF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_TRIF.tim
+- name: obj/P_EX100_XM_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_TRIF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_TRIF.sqd
+- name: obj/P_EX100_XM_MAGF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_LIGHTCYCLE.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_LIGHTCYCLE.tim
+- name: obj/P_EX100_XM_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_LIGHTCYCLE.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_LIGHTCYCLE.sqd
+- name: obj/P_EX100_XM_KH1F.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.tim
+- name: obj/P_EX100_XM_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.sqd
+- name: obj/P_EX100_XM_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_TRIF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_TRIF.tim
+- name: obj/P_EX100_XM_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_TRIF.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_TRIF.sqd
 - name: obj/P_EX100_XM_ULTF.mdlx
   method: binarc
   source:
@@ -864,12 +864,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_NM_KH1F.model
+    - name: obj/P_EX100_MAGF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_NM_KH1F.tim
+    - name: obj/P_EX100_MAGF.tim
 - name: obj/P_EX100_XM_ULTF.a.fm
   method: binarc
   source:
@@ -877,12 +877,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_NM_KH1F.imd
+    - name: obj/P_EX100_MAGF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_NM_KH1F.sqd
+    - name: obj/P_EX100_MAGF.sqd
 - name: obj/P_EX100_XM_HTLF.mdlx
   method: binarc
   source:
@@ -890,12 +890,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_NM_BTLF.model
+    - name: obj/P_EX100_WI_BTLF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_NM_BTLF.tim
+    - name: obj/P_EX100_WI_BTLF.tim
 - name: obj/P_EX100_XM_HTLF.a.fm
   method: binarc
   source:
@@ -903,12 +903,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_NM_BTLF.imd
+    - name: obj/P_EX100_WI_BTLF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_NM_BTLF.sqd
+    - name: obj/P_EX100_WI_BTLF.sqd
 - name: obj/P_EX100_AL_CARPET.mdlx
   method: binarc
   source:
@@ -942,12 +942,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_TR_BTLF.model
+    - name: obj/P_EX100_WI.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_TR_BTLF.tim
+    - name: obj/P_EX100_WI.tim
 - name: obj/P_EX100_TR_LIGHTCYCLE.a.fm
   method: binarc
   source:
@@ -955,25 +955,25 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_TR_BTLF.imd
+    - name: obj/P_EX100_WI.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_TR_BTLF.sqd
+    - name: obj/P_EX100_WI.sqd
 - name: obj/PO06_PLAYER.mdlx
   method: binarc
   source:
-  - name: p_ex
+  - name: po06
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_MAGF.model
+    - name: obj/P_EX100_HTLF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_MAGF.tim
+    - name: obj/P_EX100_HTLF.tim
 - name: obj/PO06_PLAYER.a.fm
   method: binarc
   source:
@@ -981,25 +981,25 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_MAGF.imd
+    - name: obj/P_EX100_HTLF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_MAGF.sqd
+    - name: obj/P_EX100_HTLF.sqd
 - name: obj/AL14_PLAYER.mdlx
   method: binarc
   source:
-  - name: p_ex
+  - name: al14
     type: model
     method: copy
     source:
-    - name: obj/P_EX100_XM_BTLF.model
+    - name: obj/P_EX100_TR_ULTF.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX100_XM_BTLF.tim
+    - name: obj/P_EX100_TR_ULTF.tim
 - name: obj/AL14_PLAYER.a.fm
   method: binarc
   source:
@@ -1007,12 +1007,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX100_XM_BTLF.imd
+    - name: obj/P_EX100_TR_ULTF.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX100_XM_BTLF.sqd
+    - name: obj/P_EX100_TR_ULTF.sqd
 - name: obj/P_EX020.mdlx
   method: binarc
   source:
@@ -1046,39 +1046,13 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX020_TR.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj/P_EX020_TR.tim
-- name: obj/P_EX020_NM.a.fm
-  method: binarc
-  source:
-  - name: face
-    type: imgd
-    method: copy
-    source:
-    - name: obj/P_EX020_TR.imd
-  - name: face
-    type: seqd
-    method: copy
-    source:
-    - name: obj/P_EX020_TR.sqd
-- name: obj/P_EX020_TR.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
     - name: obj/P_EX020.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
     - name: obj/P_EX020.tim
-- name: obj/P_EX020_TR.a.fm
+- name: obj/P_EX020_NM.a.fm
   method: binarc
   source:
   - name: face
@@ -1091,7 +1065,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX020.sqd
-- name: obj/P_EX020_XM.mdlx
+- name: obj/P_EX020_TR.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -1104,7 +1078,7 @@ assets:
     method: copy
     source:
     - name: obj/P_EX020_NM.tim
-- name: obj/P_EX020_XM.a.fm
+- name: obj/P_EX020_TR.a.fm
   method: binarc
   source:
   - name: face
@@ -1117,6 +1091,32 @@ assets:
     method: copy
     source:
     - name: obj/P_EX020_NM.sqd
+- name: obj/P_EX020_XM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/P_EX020_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_EX020_TR.tim
+- name: obj/P_EX020_XM.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX020_TR.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX020_TR.sqd
 - name: obj/P_EX030.mdlx
   method: binarc
   source:
@@ -1124,12 +1124,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX030_NM.model
+    - name: obj/P_EX030_TR.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX030_NM.tim
+    - name: obj/P_EX030_TR.tim
 - name: obj/P_EX030.a.fm
   method: binarc
   source:
@@ -1137,12 +1137,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX030_NM.imd
+    - name: obj/P_EX030_TR.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX030_NM.sqd
+    - name: obj/P_EX030_TR.sqd
 - name: obj/P_EX030_NM.mdlx
   method: binarc
   source:
@@ -1176,12 +1176,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/P_EX030_TR.model
+    - name: obj/P_EX030_NM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/P_EX030_TR.tim
+    - name: obj/P_EX030_NM.tim
 - name: obj/P_EX030_TR.a.fm
   method: binarc
   source:
@@ -1189,12 +1189,12 @@ assets:
     type: imgd
     method: copy
     source:
-    - name: obj/P_EX030_TR.imd
+    - name: obj/P_EX030_NM.imd
   - name: face
     type: seqd
     method: copy
     source:
-    - name: obj/P_EX030_TR.sqd
+    - name: obj/P_EX030_NM.sqd
 - name: obj/P_EX030_XM.mdlx
   method: binarc
   source:
@@ -1221,3 +1221,4492 @@ assets:
     method: copy
     source:
     - name: obj/P_EX030.sqd
+- name: obj/P_NM000.mdlx
+  method: binarc
+  source:
+  - name: p_nm
+    type: model
+    method: copy
+    source:
+    - name: obj/P_NM000.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_NM000.tim
+- name: obj/P_NM000.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_NM000.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_NM000.sqd
+- name: obj/P_NM000_SANTA.mdlx
+  method: binarc
+  source:
+  - name: p_nm
+    type: model
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.tim
+- name: obj/P_NM000_SANTA.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.imd
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.sqd
+- name: obj/W_EX010.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_40.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_40.tim
+- name: obj/W_EX010.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_40.a.fm
+- name: obj/W_EX010_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_G0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_G0.tim
+- name: obj/W_EX010_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_G0.a.fm
+- name: obj/W_EX010_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_40_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_40_WI.tim
+- name: obj/W_EX010_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_40_WI.a.fm
+- name: obj/W_EX010_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_TR.tim
+- name: obj/W_EX010_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_C0_TR.a.fm
+- name: obj/W_EX010_10.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_TR.tim
+- name: obj/W_EX010_10.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_R0_TR.a.fm
+- name: obj/W_EX010_10_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_10_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_10_NM.tim
+- name: obj/W_EX010_10_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_10_NM.a.fm
+- name: obj/W_EX010_10_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_70_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_70_WI.tim
+- name: obj/W_EX010_10_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_70_WI.a.fm
+- name: obj/W_EX010_10_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_60_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_60_NM.tim
+- name: obj/W_EX010_10_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_60_NM.a.fm
+- name: obj/W_EX010_20.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_90_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_90_WI.tim
+- name: obj/W_EX010_20.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_90_WI.a.fm
+- name: obj/W_EX010_20_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_R0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_R0.tim
+- name: obj/W_EX010_20_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_R0.a.fm
+- name: obj/W_EX010_20_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_40_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_40_NM.tim
+- name: obj/W_EX010_20_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_40_NM.a.fm
+- name: obj/W_EX010_20_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_TR.tim
+- name: obj/W_EX010_20_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_P0_TR.a.fm
+- name: obj/W_EX010_30.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_TR.tim
+- name: obj/W_EX010_30.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_K0_TR.a.fm
+- name: obj/W_EX010_30_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_90.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_90.tim
+- name: obj/W_EX010_30_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_90.a.fm
+- name: obj/W_EX010_30_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_WI.tim
+- name: obj/W_EX010_30_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_K0_WI.a.fm
+- name: obj/W_EX010_30_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_TR.tim
+- name: obj/W_EX010_30_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_M0_TR.a.fm
+- name: obj/W_EX010_40.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_TR.tim
+- name: obj/W_EX010_40.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_F0_TR.a.fm
+- name: obj/W_EX010_40_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_Y0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_Y0.tim
+- name: obj/W_EX010_40_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_Y0.a.fm
+- name: obj/W_EX010_40_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_D0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_D0.tim
+- name: obj/W_EX010_40_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_D0.a.fm
+- name: obj/W_EX010_40_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_TR.tim
+- name: obj/W_EX010_40_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_N0_TR.a.fm
+- name: obj/W_EX010_50.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_K0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_K0.tim
+- name: obj/W_EX010_50.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_K0.a.fm
+- name: obj/W_EX010_50_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_A0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_A0.tim
+- name: obj/W_EX010_50_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_A0.a.fm
+- name: obj/W_EX010_50_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_20_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_20_NM.tim
+- name: obj/W_EX010_50_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_20_NM.a.fm
+- name: obj/W_EX010_50_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_30_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_30_WI.tim
+- name: obj/W_EX010_50_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_30_WI.a.fm
+- name: obj/W_EX010_60.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_H0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_H0.tim
+- name: obj/W_EX010_60.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_H0.a.fm
+- name: obj/W_EX010_60_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_WI.tim
+- name: obj/W_EX010_60_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_WI.a.fm
+- name: obj/W_EX010_60_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_NM.tim
+- name: obj/W_EX010_60_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_J0_NM.a.fm
+- name: obj/W_EX010_60_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_TR.tim
+- name: obj/W_EX010_60_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_G0_TR.a.fm
+- name: obj/W_EX010_70.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_90_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_90_TR.tim
+- name: obj/W_EX010_70.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_90_TR.a.fm
+- name: obj/W_EX010_70_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_30_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_30_NM.tim
+- name: obj/W_EX010_70_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_30_NM.a.fm
+- name: obj/W_EX010_70_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_TR.tim
+- name: obj/W_EX010_70_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_D0_TR.a.fm
+- name: obj/W_EX010_70_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_NM.tim
+- name: obj/W_EX010_70_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_D0_NM.a.fm
+- name: obj/W_EX010_80.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_NM.tim
+- name: obj/W_EX010_80.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_E0_NM.a.fm
+- name: obj/W_EX010_80_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_D0_WI.tim
+- name: obj/W_EX010_80_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_D0_WI.a.fm
+- name: obj/W_EX010_80_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_20_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_20_WI.tim
+- name: obj/W_EX010_80_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_20_WI.a.fm
+- name: obj/W_EX010_80_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_TR.tim
+- name: obj/W_EX010_80_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_H0_TR.a.fm
+- name: obj/W_EX010_90.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_J0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_J0.tim
+- name: obj/W_EX010_90.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_J0.a.fm
+- name: obj/W_EX010_90_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_NM.tim
+- name: obj/W_EX010_90_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_P0_NM.a.fm
+- name: obj/W_EX010_90_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_NM.tim
+- name: obj/W_EX010_90_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_H0_NM.a.fm
+- name: obj/W_EX010_90_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_WI.tim
+- name: obj/W_EX010_90_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_J0_WI.a.fm
+- name: obj/W_EX010_A0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_WI.tim
+- name: obj/W_EX010_A0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_A0_WI.a.fm
+- name: obj/W_EX010_A0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_70_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_70_NM.tim
+- name: obj/W_EX010_A0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_70_NM.a.fm
+- name: obj/W_EX010_A0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_U0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_U0.tim
+- name: obj/W_EX010_A0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_U0.a.fm
+- name: obj/W_EX010_A0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_TR.tim
+- name: obj/W_EX010_A0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_B0_TR.a.fm
+- name: obj/W_EX010_B0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_W0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_W0.tim
+- name: obj/W_EX010_B0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_W0.a.fm
+- name: obj/W_EX010_B0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_F0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_F0.tim
+- name: obj/W_EX010_B0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_F0.a.fm
+- name: obj/W_EX010_B0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_50.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_50.tim
+- name: obj/W_EX010_B0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_50.a.fm
+- name: obj/W_EX010_B0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_M0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_M0.tim
+- name: obj/W_EX010_B0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_M0.a.fm
+- name: obj/W_EX010_C0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_NM.tim
+- name: obj/W_EX010_C0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_NM.a.fm
+- name: obj/W_EX010_C0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_50_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_50_NM.tim
+- name: obj/W_EX010_C0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_50_NM.a.fm
+- name: obj/W_EX010_C0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_WI.tim
+- name: obj/W_EX010_C0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_N0_WI.a.fm
+- name: obj/W_EX010_C0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_H0_WI.tim
+- name: obj/W_EX010_C0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_H0_WI.a.fm
+- name: obj/W_EX010_D0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_V0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_V0.tim
+- name: obj/W_EX010_D0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_V0.a.fm
+- name: obj/W_EX010_D0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_B0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_B0.tim
+- name: obj/W_EX010_D0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_B0.a.fm
+- name: obj/W_EX010_D0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_50_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_50_WI.tim
+- name: obj/W_EX010_D0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_50_WI.a.fm
+- name: obj/W_EX010_D0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_60_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_60_WI.tim
+- name: obj/W_EX010_D0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_60_WI.a.fm
+- name: obj/W_EX010_E0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_P0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_P0.tim
+- name: obj/W_EX010_E0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_P0.a.fm
+- name: obj/W_EX010_E0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_WI.tim
+- name: obj/W_EX010_E0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_C0_WI.a.fm
+- name: obj/W_EX010_E0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_C0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_C0.tim
+- name: obj/W_EX010_E0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_C0.a.fm
+- name: obj/W_EX010_E0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_50_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_50_TR.tim
+- name: obj/W_EX010_E0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_50_TR.a.fm
+- name: obj/W_EX010_F0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_TR.tim
+- name: obj/W_EX010_F0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_E0_TR.a.fm
+- name: obj/W_EX010_F0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_WI.tim
+- name: obj/W_EX010_F0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_M0_WI.a.fm
+- name: obj/W_EX010_F0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_10.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_10.tim
+- name: obj/W_EX010_F0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_10.a.fm
+- name: obj/W_EX010_F0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_30_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_30_TR.tim
+- name: obj/W_EX010_F0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_30_TR.a.fm
+- name: obj/W_EX010_G0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_NM.tim
+- name: obj/W_EX010_G0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_F0_NM.a.fm
+- name: obj/W_EX010_G0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_TR.tim
+- name: obj/W_EX010_G0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_A0_TR.a.fm
+- name: obj/W_EX010_G0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_E0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_E0.tim
+- name: obj/W_EX010_G0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_E0.a.fm
+- name: obj/W_EX010_G0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_20.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_20.tim
+- name: obj/W_EX010_G0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_20.a.fm
+- name: obj/W_EX010_H0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_E0_WI.tim
+- name: obj/W_EX010_H0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_E0_WI.a.fm
+- name: obj/W_EX010_H0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_F0_WI.tim
+- name: obj/W_EX010_H0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_F0_WI.a.fm
+- name: obj/W_EX010_H0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010.tim
+- name: obj/W_EX010_H0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010.a.fm
+- name: obj/W_EX010_H0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_M0_NM.tim
+- name: obj/W_EX010_H0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_M0_NM.a.fm
+- name: obj/W_EX010_J0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_WI.tim
+- name: obj/W_EX010_J0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_B0_WI.a.fm
+- name: obj/W_EX010_J0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_60_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_60_TR.tim
+- name: obj/W_EX010_J0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_60_TR.a.fm
+- name: obj/W_EX010_J0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_B0_NM.tim
+- name: obj/W_EX010_J0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_B0_NM.a.fm
+- name: obj/W_EX010_J0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_70_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_70_TR.tim
+- name: obj/W_EX010_J0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_70_TR.a.fm
+- name: obj/W_EX010_K0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_Z0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_Z0.tim
+- name: obj/W_EX010_K0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_Z0.a.fm
+- name: obj/W_EX010_K0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_40_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_40_TR.tim
+- name: obj/W_EX010_K0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_40_TR.a.fm
+- name: obj/W_EX010_K0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_10_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_10_WI.tim
+- name: obj/W_EX010_K0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_10_WI.a.fm
+- name: obj/W_EX010_K0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_70.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_70.tim
+- name: obj/W_EX010_K0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_70.a.fm
+- name: obj/W_EX010_M0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_TR.tim
+- name: obj/W_EX010_M0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_TR.a.fm
+- name: obj/W_EX010_M0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_WI.tim
+- name: obj/W_EX010_M0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_R0_WI.a.fm
+- name: obj/W_EX010_M0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_J0_TR.tim
+- name: obj/W_EX010_M0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_J0_TR.a.fm
+- name: obj/W_EX010_M0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_K0_NM.tim
+- name: obj/W_EX010_M0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_K0_NM.a.fm
+- name: obj/W_EX010_N0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_80_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_80_TR.tim
+- name: obj/W_EX010_N0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_80_TR.a.fm
+- name: obj/W_EX010_N0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_C0_NM.tim
+- name: obj/W_EX010_N0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_C0_NM.a.fm
+- name: obj/W_EX010_N0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_80_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_80_NM.tim
+- name: obj/W_EX010_N0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_80_NM.a.fm
+- name: obj/W_EX010_N0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_A0_NM.tim
+- name: obj/W_EX010_N0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_A0_NM.a.fm
+- name: obj/W_EX010_P0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_80.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_80.tim
+- name: obj/W_EX010_P0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_80.a.fm
+- name: obj/W_EX010_P0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_R0_NM.tim
+- name: obj/W_EX010_P0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_R0_NM.a.fm
+- name: obj/W_EX010_P0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_90_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_90_NM.tim
+- name: obj/W_EX010_P0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_90_NM.a.fm
+- name: obj/W_EX010_P0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_WI.tim
+- name: obj/W_EX010_P0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_G0_WI.a.fm
+- name: obj/W_EX010_R0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_P0_WI.tim
+- name: obj/W_EX010_R0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_P0_WI.a.fm
+- name: obj/W_EX010_R0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_N0_NM.tim
+- name: obj/W_EX010_R0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_N0_NM.a.fm
+- name: obj/W_EX010_R0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_G0_NM.tim
+- name: obj/W_EX010_R0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_G0_NM.a.fm
+- name: obj/W_EX010_R0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_30.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_30.tim
+- name: obj/W_EX010_R0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_30.a.fm
+- name: obj/W_EX010_U0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_N0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_N0.tim
+- name: obj/W_EX010_U0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_N0.a.fm
+- name: obj/W_EX010_V0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_10_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_10_TR.tim
+- name: obj/W_EX010_V0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_10_TR.a.fm
+- name: obj/W_EX010_W0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_60.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_60.tim
+- name: obj/W_EX010_W0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_60.a.fm
+- name: obj/W_EX010_Y0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_20_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_20_TR.tim
+- name: obj/W_EX010_Y0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_20_TR.a.fm
+- name: obj/W_EX010_Z0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX010_80_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX010_80_WI.tim
+- name: obj/W_EX010_Z0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_80_WI.a.fm
+- name: obj/W_EX020.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_10.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_10.tim
+- name: obj/W_EX020.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_10.a.fm
+- name: obj/W_EX020_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_TR.tim
+- name: obj/W_EX020_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C8_TR.a.fm
+- name: obj/W_EX020_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_50.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_50.tim
+- name: obj/W_EX020_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_50.a.fm
+- name: obj/W_EX020_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_TR.tim
+- name: obj/W_EX020_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C4_TR.a.fm
+- name: obj/W_EX020_10.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_WI.tim
+- name: obj/W_EX020_10.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_WI.a.fm
+- name: obj/W_EX020_10_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_20_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_20_WI.tim
+- name: obj/W_EX020_10_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_20_WI.a.fm
+- name: obj/W_EX020_10_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_30_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_30_WI.tim
+- name: obj/W_EX020_10_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_30_WI.a.fm
+- name: obj/W_EX020_10_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_WI.tim
+- name: obj/W_EX020_10_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CG_WI.a.fm
+- name: obj/W_EX020_20.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_WI.tim
+- name: obj/W_EX020_20.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C4_WI.a.fm
+- name: obj/W_EX020_20_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_WI.tim
+- name: obj/W_EX020_20_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B4_WI.a.fm
+- name: obj/W_EX020_20_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C8.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C8.tim
+- name: obj/W_EX020_20_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C8.a.fm
+- name: obj/W_EX020_20_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_80.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_80.tim
+- name: obj/W_EX020_20_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_80.a.fm
+- name: obj/W_EX020_30.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_70_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_70_NM.tim
+- name: obj/W_EX020_30.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_70_NM.a.fm
+- name: obj/W_EX020_30_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_30_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_30_TR.tim
+- name: obj/W_EX020_30_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_30_TR.a.fm
+- name: obj/W_EX020_30_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_70_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_70_TR.tim
+- name: obj/W_EX020_30_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_70_TR.a.fm
+- name: obj/W_EX020_30_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_60_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_60_WI.tim
+- name: obj/W_EX020_30_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_60_WI.a.fm
+- name: obj/W_EX020_40.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_TR.tim
+- name: obj/W_EX020_40.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CC_TR.a.fm
+- name: obj/W_EX020_40_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_80_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_80_NM.tim
+- name: obj/W_EX020_40_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_80_NM.a.fm
+- name: obj/W_EX020_40_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_30.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_30.tim
+- name: obj/W_EX020_40_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_30.a.fm
+- name: obj/W_EX020_40_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_NM.tim
+- name: obj/W_EX020_40_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B0_NM.a.fm
+- name: obj/W_EX020_50.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_10_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_10_WI.tim
+- name: obj/W_EX020_50.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_10_WI.a.fm
+- name: obj/W_EX020_50_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_TR.tim
+- name: obj/W_EX020_50_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A0_TR.a.fm
+- name: obj/W_EX020_50_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_10_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_10_TR.tim
+- name: obj/W_EX020_50_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_10_TR.a.fm
+- name: obj/W_EX020_50_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C4_NM.tim
+- name: obj/W_EX020_50_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C4_NM.a.fm
+- name: obj/W_EX020_60.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_50_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_50_WI.tim
+- name: obj/W_EX020_60.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_50_WI.a.fm
+- name: obj/W_EX020_60_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_20_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_20_NM.tim
+- name: obj/W_EX020_60_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_20_NM.a.fm
+- name: obj/W_EX020_60_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_90_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_90_NM.tim
+- name: obj/W_EX020_60_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_90_NM.a.fm
+- name: obj/W_EX020_60_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_80_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_80_WI.tim
+- name: obj/W_EX020_60_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_80_WI.a.fm
+- name: obj/W_EX020_70.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_TR.tim
+- name: obj/W_EX020_70.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B4_TR.a.fm
+- name: obj/W_EX020_70_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_WI.tim
+- name: obj/W_EX020_70_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B0_WI.a.fm
+- name: obj/W_EX020_70_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_TR.tim
+- name: obj/W_EX020_70_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_TR.a.fm
+- name: obj/W_EX020_70_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_NM.tim
+- name: obj/W_EX020_70_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CC_NM.a.fm
+- name: obj/W_EX020_80.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_NM.tim
+- name: obj/W_EX020_80.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A4_NM.a.fm
+- name: obj/W_EX020_80_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_94_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_94_WI.tim
+- name: obj/W_EX020_80_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_94_WI.a.fm
+- name: obj/W_EX020_80_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_40.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_40.tim
+- name: obj/W_EX020_80_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_40.a.fm
+- name: obj/W_EX020_80_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_94_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_94_NM.tim
+- name: obj/W_EX020_80_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_94_NM.a.fm
+- name: obj/W_EX020_90.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_10_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_10_NM.tim
+- name: obj/W_EX020_90.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_10_NM.a.fm
+- name: obj/W_EX020_90_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_50_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_50_NM.tim
+- name: obj/W_EX020_90_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_50_NM.a.fm
+- name: obj/W_EX020_90_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_NM.tim
+- name: obj/W_EX020_90_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C8_NM.a.fm
+- name: obj/W_EX020_90_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CG.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CG.tim
+- name: obj/W_EX020_90_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CG.a.fm
+- name: obj/W_EX020_94.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_TR.tim
+- name: obj/W_EX020_94.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CG_TR.a.fm
+- name: obj/W_EX020_94_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_94_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_94_TR.tim
+- name: obj/W_EX020_94_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_94_TR.a.fm
+- name: obj/W_EX020_94_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_60.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_60.tim
+- name: obj/W_EX020_94_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_60.a.fm
+- name: obj/W_EX020_94_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A4.tim
+- name: obj/W_EX020_94_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A4.a.fm
+- name: obj/W_EX020_A0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_70_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_70_WI.tim
+- name: obj/W_EX020_A0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_70_WI.a.fm
+- name: obj/W_EX020_A0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_TR.tim
+- name: obj/W_EX020_A0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C0_TR.a.fm
+- name: obj/W_EX020_A0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B0_TR.tim
+- name: obj/W_EX020_A0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B0_TR.a.fm
+- name: obj/W_EX020_A0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_90_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_90_WI.tim
+- name: obj/W_EX020_A0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_90_WI.a.fm
+- name: obj/W_EX020_A4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CC.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CC.tim
+- name: obj/W_EX020_A4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CC.a.fm
+- name: obj/W_EX020_A4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_WI.tim
+- name: obj/W_EX020_A4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A0_WI.a.fm
+- name: obj/W_EX020_A4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_40_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_40_WI.tim
+- name: obj/W_EX020_A4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_40_WI.a.fm
+- name: obj/W_EX020_A4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_NM.tim
+- name: obj/W_EX020_A4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C0_NM.a.fm
+- name: obj/W_EX020_B0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_20_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_20_TR.tim
+- name: obj/W_EX020_B0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_20_TR.a.fm
+- name: obj/W_EX020_B0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A0.tim
+- name: obj/W_EX020_B0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A0.a.fm
+- name: obj/W_EX020_B0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CC_WI.tim
+- name: obj/W_EX020_B0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CC_WI.a.fm
+- name: obj/W_EX020_B0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_50_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_50_TR.tim
+- name: obj/W_EX020_B0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_50_TR.a.fm
+- name: obj/W_EX020_B4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_30_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_30_NM.tim
+- name: obj/W_EX020_B4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_30_NM.a.fm
+- name: obj/W_EX020_B4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C4.tim
+- name: obj/W_EX020_B4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C4.a.fm
+- name: obj/W_EX020_B4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_NM.tim
+- name: obj/W_EX020_B4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_NM.a.fm
+- name: obj/W_EX020_B4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_WI.tim
+- name: obj/W_EX020_B4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A4_WI.a.fm
+- name: obj/W_EX020_C0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_80_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_80_TR.tim
+- name: obj/W_EX020_C0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_80_TR.a.fm
+- name: obj/W_EX020_C0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_20.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_20.tim
+- name: obj/W_EX020_C0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_20.a.fm
+- name: obj/W_EX020_C0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B4.tim
+- name: obj/W_EX020_C0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B4.a.fm
+- name: obj/W_EX020_C0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C0_WI.tim
+- name: obj/W_EX020_C0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C0_WI.a.fm
+- name: obj/W_EX020_C4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_90.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_90.tim
+- name: obj/W_EX020_C4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_90.a.fm
+- name: obj/W_EX020_C4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020.tim
+- name: obj/W_EX020_C4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020.a.fm
+- name: obj/W_EX020_C4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A4_TR.tim
+- name: obj/W_EX020_C4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A4_TR.a.fm
+- name: obj/W_EX020_C4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_A0_NM.tim
+- name: obj/W_EX020_C4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_A0_NM.a.fm
+- name: obj/W_EX020_C8.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_70.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_70.tim
+- name: obj/W_EX020_C8.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_70.a.fm
+- name: obj/W_EX020_C8_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B4_NM.tim
+- name: obj/W_EX020_C8_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B4_NM.a.fm
+- name: obj/W_EX020_C8_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_40_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_40_NM.tim
+- name: obj/W_EX020_C8_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_40_NM.a.fm
+- name: obj/W_EX020_C8_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_94.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_94.tim
+- name: obj/W_EX020_C8_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_94.a.fm
+- name: obj/W_EX020_CC.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_B0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_B0.tim
+- name: obj/W_EX020_CC.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_B0.a.fm
+- name: obj/W_EX020_CC_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C8_WI.tim
+- name: obj/W_EX020_CC_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C8_WI.a.fm
+- name: obj/W_EX020_CC_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_90_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_90_TR.tim
+- name: obj/W_EX020_CC_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_90_TR.a.fm
+- name: obj/W_EX020_CC_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_60_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_60_NM.tim
+- name: obj/W_EX020_CC_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_60_NM.a.fm
+- name: obj/W_EX020_CG.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_60_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_60_TR.tim
+- name: obj/W_EX020_CG.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_60_TR.a.fm
+- name: obj/W_EX020_CG_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_40_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_40_TR.tim
+- name: obj/W_EX020_CG_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_40_TR.a.fm
+- name: obj/W_EX020_CG_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_C0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_C0.tim
+- name: obj/W_EX020_CG_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_C0.a.fm
+- name: obj/W_EX020_CG_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX020_CG_NM.tim
+- name: obj/W_EX020_CG_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX020_CG_NM.a.fm
+- name: obj/W_EX030.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_10_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_10_WI.tim
+- name: obj/W_EX030.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_10_WI.a.fm
+- name: obj/W_EX030_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CG.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CG.tim
+- name: obj/W_EX030_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CG.a.fm
+- name: obj/W_EX030_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_WI.tim
+- name: obj/W_EX030_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A0_WI.a.fm
+- name: obj/W_EX030_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_NM.tim
+- name: obj/W_EX030_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B4_NM.a.fm
+- name: obj/W_EX030_10.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_10.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_10.tim
+- name: obj/W_EX030_10.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_10.a.fm
+- name: obj/W_EX030_10_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_90.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_90.tim
+- name: obj/W_EX030_10_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_90.a.fm
+- name: obj/W_EX030_10_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_TR.tim
+- name: obj/W_EX030_10_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C0_TR.a.fm
+- name: obj/W_EX030_10_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030.tim
+- name: obj/W_EX030_10_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030.a.fm
+- name: obj/W_EX030_20.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_NM.tim
+- name: obj/W_EX030_20.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CC_NM.a.fm
+- name: obj/W_EX030_20_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A0.tim
+- name: obj/W_EX030_20_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A0.a.fm
+- name: obj/W_EX030_20_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C4.tim
+- name: obj/W_EX030_20_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C4.a.fm
+- name: obj/W_EX030_20_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_70_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_70_WI.tim
+- name: obj/W_EX030_20_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_70_WI.a.fm
+- name: obj/W_EX030_30.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_TR.tim
+- name: obj/W_EX030_30.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A4_TR.a.fm
+- name: obj/W_EX030_30_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_80_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_80_TR.tim
+- name: obj/W_EX030_30_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_80_TR.a.fm
+- name: obj/W_EX030_30_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_20.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_20.tim
+- name: obj/W_EX030_30_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_20.a.fm
+- name: obj/W_EX030_30_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_TR.tim
+- name: obj/W_EX030_30_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CC_TR.a.fm
+- name: obj/W_EX030_40.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_10_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_10_NM.tim
+- name: obj/W_EX030_40.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_10_NM.a.fm
+- name: obj/W_EX030_40_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_40_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_40_WI.tim
+- name: obj/W_EX030_40_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_40_WI.a.fm
+- name: obj/W_EX030_40_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_84.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_84.tim
+- name: obj/W_EX030_40_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_84.a.fm
+- name: obj/W_EX030_40_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_20_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_20_NM.tim
+- name: obj/W_EX030_40_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_20_NM.a.fm
+- name: obj/W_EX030_50.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_60_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_60_WI.tim
+- name: obj/W_EX030_50.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_60_WI.a.fm
+- name: obj/W_EX030_50_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_30.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_30.tim
+- name: obj/W_EX030_50_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_30.a.fm
+- name: obj/W_EX030_50_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C0.tim
+- name: obj/W_EX030_50_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C0.a.fm
+- name: obj/W_EX030_50_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_20_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_20_WI.tim
+- name: obj/W_EX030_50_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_20_WI.a.fm
+- name: obj/W_EX030_60.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_40.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_40.tim
+- name: obj/W_EX030_60.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_40.a.fm
+- name: obj/W_EX030_60_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_WI.tim
+- name: obj/W_EX030_60_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B0_WI.a.fm
+- name: obj/W_EX030_60_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_20_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_20_TR.tim
+- name: obj/W_EX030_60_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_20_TR.a.fm
+- name: obj/W_EX030_60_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_90_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_90_TR.tim
+- name: obj/W_EX030_60_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_90_TR.a.fm
+- name: obj/W_EX030_70.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_TR.tim
+- name: obj/W_EX030_70.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CG_TR.a.fm
+- name: obj/W_EX030_70_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_30_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_30_WI.tim
+- name: obj/W_EX030_70_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_30_WI.a.fm
+- name: obj/W_EX030_70_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_50_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_50_WI.tim
+- name: obj/W_EX030_70_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_50_WI.a.fm
+- name: obj/W_EX030_70_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_70_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_70_NM.tim
+- name: obj/W_EX030_70_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_70_NM.a.fm
+- name: obj/W_EX030_80.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_50_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_50_TR.tim
+- name: obj/W_EX030_80.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_50_TR.a.fm
+- name: obj/W_EX030_80_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_WI.tim
+- name: obj/W_EX030_80_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B4_WI.a.fm
+- name: obj/W_EX030_80_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_60.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_60.tim
+- name: obj/W_EX030_80_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_60.a.fm
+- name: obj/W_EX030_80_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_TR.tim
+- name: obj/W_EX030_80_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C4_TR.a.fm
+- name: obj/W_EX030_84.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_30_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_30_TR.tim
+- name: obj/W_EX030_84.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_30_TR.a.fm
+- name: obj/W_EX030_84_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_80_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_80_WI.tim
+- name: obj/W_EX030_84_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_80_WI.a.fm
+- name: obj/W_EX030_84_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_WI.tim
+- name: obj/W_EX030_84_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C8_WI.a.fm
+- name: obj/W_EX030_84_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_WI.tim
+- name: obj/W_EX030_84_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_WI.a.fm
+- name: obj/W_EX030_90.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_NM.tim
+- name: obj/W_EX030_90.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C4_NM.a.fm
+- name: obj/W_EX030_90_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_WI.tim
+- name: obj/W_EX030_90_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C0_WI.a.fm
+- name: obj/W_EX030_90_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_TR.tim
+- name: obj/W_EX030_90_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A0_TR.a.fm
+- name: obj/W_EX030_90_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_84_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_84_NM.tim
+- name: obj/W_EX030_90_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_84_NM.a.fm
+- name: obj/W_EX030_A0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_84_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_84_TR.tim
+- name: obj/W_EX030_A0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_84_TR.a.fm
+- name: obj/W_EX030_A0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_NM.tim
+- name: obj/W_EX030_A0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C8_NM.a.fm
+- name: obj/W_EX030_A0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_90_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_90_WI.tim
+- name: obj/W_EX030_A0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_90_WI.a.fm
+- name: obj/W_EX030_A0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_40_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_40_NM.tim
+- name: obj/W_EX030_A0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_40_NM.a.fm
+- name: obj/W_EX030_A4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_40_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_40_TR.tim
+- name: obj/W_EX030_A4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_40_TR.a.fm
+- name: obj/W_EX030_A4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_NM.tim
+- name: obj/W_EX030_A4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A4_NM.a.fm
+- name: obj/W_EX030_A4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C0_NM.tim
+- name: obj/W_EX030_A4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C0_NM.a.fm
+- name: obj/W_EX030_A4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B4_TR.tim
+- name: obj/W_EX030_A4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B4_TR.a.fm
+- name: obj/W_EX030_B0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_10_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_10_TR.tim
+- name: obj/W_EX030_B0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_10_TR.a.fm
+- name: obj/W_EX030_B0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_84_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_84_WI.tim
+- name: obj/W_EX030_B0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_84_WI.a.fm
+- name: obj/W_EX030_B0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_60_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_60_NM.tim
+- name: obj/W_EX030_B0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_60_NM.a.fm
+- name: obj/W_EX030_B0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_60_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_60_TR.tim
+- name: obj/W_EX030_B0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_60_TR.a.fm
+- name: obj/W_EX030_B4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_70.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_70.tim
+- name: obj/W_EX030_B4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_70.a.fm
+- name: obj/W_EX030_B4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_NM.tim
+- name: obj/W_EX030_B4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CG_NM.a.fm
+- name: obj/W_EX030_B4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_TR.tim
+- name: obj/W_EX030_B4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_TR.a.fm
+- name: obj/W_EX030_B4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CC_WI.tim
+- name: obj/W_EX030_B4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CC_WI.a.fm
+- name: obj/W_EX030_C0.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_NM.tim
+- name: obj/W_EX030_C0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_NM.a.fm
+- name: obj/W_EX030_C0_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A4_WI.tim
+- name: obj/W_EX030_C0_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A4_WI.a.fm
+- name: obj/W_EX030_C0_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C8.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C8.tim
+- name: obj/W_EX030_C0_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C8.a.fm
+- name: obj/W_EX030_C0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_30_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_30_NM.tim
+- name: obj/W_EX030_C0_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_30_NM.a.fm
+- name: obj/W_EX030_C4.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A0_NM.tim
+- name: obj/W_EX030_C4.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A0_NM.a.fm
+- name: obj/W_EX030_C4_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CG_WI.tim
+- name: obj/W_EX030_C4_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CG_WI.a.fm
+- name: obj/W_EX030_C4_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_70_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_70_TR.tim
+- name: obj/W_EX030_C4_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_70_TR.a.fm
+- name: obj/W_EX030_C4_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_CC.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_CC.tim
+- name: obj/W_EX030_C4_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_CC.a.fm
+- name: obj/W_EX030_C8.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_TR.tim
+- name: obj/W_EX030_C8.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B0_TR.a.fm
+- name: obj/W_EX030_C8_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_50.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_50.tim
+- name: obj/W_EX030_C8_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_50.a.fm
+- name: obj/W_EX030_C8_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_90_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_90_NM.tim
+- name: obj/W_EX030_C8_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_90_NM.a.fm
+- name: obj/W_EX030_C8_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_80.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_80.tim
+- name: obj/W_EX030_C8_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_80.a.fm
+- name: obj/W_EX030_CC.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C4_WI.tim
+- name: obj/W_EX030_CC.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C4_WI.a.fm
+- name: obj/W_EX030_CC_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_C8_TR.tim
+- name: obj/W_EX030_CC_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_C8_TR.a.fm
+- name: obj/W_EX030_CC_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_80_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_80_NM.tim
+- name: obj/W_EX030_CC_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_80_NM.a.fm
+- name: obj/W_EX030_CC_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B0_NM.tim
+- name: obj/W_EX030_CC_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B0_NM.a.fm
+- name: obj/W_EX030_CG.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B0.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B0.tim
+- name: obj/W_EX030_CG.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B0.a.fm
+- name: obj/W_EX030_CG_NM.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_50_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_50_NM.tim
+- name: obj/W_EX030_CG_NM.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_50_NM.a.fm
+- name: obj/W_EX030_CG_TR.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_A4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_A4.tim
+- name: obj/W_EX030_CG_TR.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_A4.a.fm
+- name: obj/W_EX030_CG_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/W_EX030_B4.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/W_EX030_B4.tim
+- name: obj/W_EX030_CG_WI.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX030_B4.a.fm
