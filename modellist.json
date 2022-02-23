@@ -1,326 +1,759 @@
 {
-	"Sora": [
-		"P_EX100",
-		"P_EX100_BTLF",
-		"P_EX100_MAGF",
-		"P_EX100_KH1F",
-		"P_EX100_TRIF",
-		"P_EX100_ULTF",
-		"P_EX100_HTLF",
-		"P_EX100_NM",
-		"P_EX100_NM_BTLF",
-		"P_EX100_NM_MAGF",
-		"P_EX100_NM_KH1F",
-		"P_EX100_NM_TRIF",
-		"P_EX100_NM_ULTF",
-		"P_EX100_NM_HTLF",
-		"P_EX100_TR",
-		"P_EX100_TR_BTLF",
-		"P_EX100_TR_MAGF",
-		"P_EX100_TR_KH1F",
-		"P_EX100_TR_TRIF",
-		"P_EX100_TR_ULTF",
-		"P_EX100_TR_HTLF",
-		"P_EX100_WI",
-		"P_EX100_WI_BTLF",
-		"P_EX100_WI_MAGF",
-		"P_EX100_WI_KH1F",
-		"P_EX100_WI_TRIF",
-		"P_EX100_WI_ULTF",
-		"P_EX100_WI_HTLF",
-		"P_EX100_XM",
-		"P_EX100_XM_BTLF",
-		"P_EX100_XM_MAGF",
-		"P_EX100_XM_KH1F",
-		"P_EX100_XM_TRIF",
-		"P_EX100_XM_ULTF",
-		"P_EX100_XM_HTLF",
-		"P_EX100_AL_CARPET",
-		"P_EX100_TR_LIGHTCYCLE",
-		"PO06_PLAYER",
-		"AL14_PLAYER"
-	],
-	"Donald": [
-		"P_EX020",
-		"P_EX020_NM",
-		"P_EX020_TR",
-		"P_EX020_XM"
-	],
-	"Goofy": [
-		"P_EX030",
-		"P_EX030_NM",
-		"P_EX030_TR",
-		"P_EX030_XM"
-	],
-	"Jack Skellington": [
-		"P_NM000",
-		"P_NM000_SANTA"
-	],
-	"Keyblade": [
-		"W_EX010",
-		"W_EX010_NM",
-		"W_EX010_TR",
-		"W_EX010_WI",
-		"W_EX010_10",
-		"W_EX010_10_NM",
-		"W_EX010_10_TR",
-		"W_EX010_10_WI",
-		"W_EX010_20",
-		"W_EX010_20_NM",
-		"W_EX010_20_TR",
-		"W_EX010_20_WI",
-		"W_EX010_30",
-		"W_EX010_30_NM",
-		"W_EX010_30_TR",
-		"W_EX010_30_WI",
-		"W_EX010_40",
-		"W_EX010_40_NM",
-		"W_EX010_40_TR",
-		"W_EX010_40_WI",
-		"W_EX010_50",
-		"W_EX010_50_NM",
-		"W_EX010_50_TR",
-		"W_EX010_50_WI",
-		"W_EX010_60",
-		"W_EX010_60_NM",
-		"W_EX010_60_TR",
-		"W_EX010_60_WI",
-		"W_EX010_70",
-		"W_EX010_70_NM",
-		"W_EX010_70_TR",
-		"W_EX010_70_WI",
-		"W_EX010_80",
-		"W_EX010_80_NM",
-		"W_EX010_80_TR",
-		"W_EX010_80_WI",
-		"W_EX010_90",
-		"W_EX010_90_NM",
-		"W_EX010_90_TR",
-		"W_EX010_90_WI",
-		"W_EX010_A0",
-		"W_EX010_A0_NM",
-		"W_EX010_A0_TR",
-		"W_EX010_A0_WI",
-		"W_EX010_B0",
-		"W_EX010_B0_NM",
-		"W_EX010_B0_TR",
-		"W_EX010_B0_WI",
-		"W_EX010_C0",
-		"W_EX010_C0_NM",
-		"W_EX010_C0_TR",
-		"W_EX010_C0_WI",
-		"W_EX010_D0",
-		"W_EX010_D0_NM",
-		"W_EX010_D0_TR",
-		"W_EX010_D0_WI",
-		"W_EX010_E0",
-		"W_EX010_E0_NM",
-		"W_EX010_E0_TR",
-		"W_EX010_E0_WI",
-		"W_EX010_F0",
-		"W_EX010_F0_NM",
-		"W_EX010_F0_TR",
-		"W_EX010_F0_WI",
-		"W_EX010_G0",
-		"W_EX010_G0_NM",
-		"W_EX010_G0_TR",
-		"W_EX010_G0_WI",
-		"W_EX010_H0",
-		"W_EX010_H0_NM",
-		"W_EX010_H0_TR",
-		"W_EX010_H0_WI",
-		"W_EX010_J0",
-		"W_EX010_J0_NM",
-		"W_EX010_J0_TR",
-		"W_EX010_J0_WI",
-		"W_EX010_K0",
-		"W_EX010_K0_NM",
-		"W_EX010_K0_TR",
-		"W_EX010_K0_WI",
-		"W_EX010_M0",
-		"W_EX010_M0_NM",
-		"W_EX010_M0_TR",
-		"W_EX010_M0_WI",
-		"W_EX010_N0",
-		"W_EX010_N0_NM",
-		"W_EX010_N0_TR",
-		"W_EX010_N0_WI",
-		"W_EX010_P0",
-		"W_EX010_P0_NM",
-		"W_EX010_P0_TR",
-		"W_EX010_P0_WI",
-		"W_EX010_R0",
-		"W_EX010_R0_NM",
-		"W_EX010_R0_TR",
-		"W_EX010_R0_WI",
-		"W_EX010_U0",
-		"W_EX010_V0",
-		"W_EX010_W0",
-		"W_EX010_Y0",
-		"W_EX010_Z0"
-	],
-	"Staff": [
-		"W_EX020",
-		"W_EX020_NM",
-		"W_EX020_TR",
-		"W_EX020_WI",
-		"W_EX020_10",
-		"W_EX020_10_NM",
-		"W_EX020_10_TR",
-		"W_EX020_10_WI",
-		"W_EX020_20",
-		"W_EX020_20_NM",
-		"W_EX020_20_TR",
-		"W_EX020_20_WI",
-		"W_EX020_30",
-		"W_EX020_30_NM",
-		"W_EX020_30_TR",
-		"W_EX020_30_WI",
-		"W_EX020_40",
-		"W_EX020_40_NM",
-		"W_EX020_40_TR",
-		"W_EX020_40_WI",
-		"W_EX020_50",
-		"W_EX020_50_NM",
-		"W_EX020_50_TR",
-		"W_EX020_50_WI",
-		"W_EX020_60",
-		"W_EX020_60_NM",
-		"W_EX020_60_TR",
-		"W_EX020_60_WI",
-		"W_EX020_70",
-		"W_EX020_70_NM",
-		"W_EX020_70_TR",
-		"W_EX020_70_WI",
-		"W_EX020_80",
-		"W_EX020_80_NM",
-		"W_EX020_80_TR",
-		"W_EX020_80_WI",
-		"W_EX020_90",
-		"W_EX020_90_NM",
-		"W_EX020_90_TR",
-		"W_EX020_90_WI",
-		"W_EX020_94",
-		"W_EX020_94_NM",
-		"W_EX020_94_TR",
-		"W_EX020_94_WI",
-		"W_EX020_A0",
-		"W_EX020_A0_NM",
-		"W_EX020_A0_TR",
-		"W_EX020_A0_WI",
-		"W_EX020_A4",
-		"W_EX020_A4_NM",
-		"W_EX020_A4_TR",
-		"W_EX020_A4_WI",
-		"W_EX020_B0",
-		"W_EX020_B0_NM",
-		"W_EX020_B0_TR",
-		"W_EX020_B0_WI",
-		"W_EX020_B4",
-		"W_EX020_B4_NM",
-		"W_EX020_B4_TR",
-		"W_EX020_B4_WI",
-		"W_EX020_C0",
-		"W_EX020_C0_NM",
-		"W_EX020_C0_TR",
-		"W_EX020_C0_WI",
-		"W_EX020_C4",
-		"W_EX020_C4_NM",
-		"W_EX020_C4_TR",
-		"W_EX020_C4_WI",
-		"W_EX020_C8",
-		"W_EX020_C8_NM",
-		"W_EX020_C8_TR",
-		"W_EX020_C8_WI",
-		"W_EX020_CC",
-		"W_EX020_CC_NM",
-		"W_EX020_CC_TR",
-		"W_EX020_CC_WI",
-		"W_EX020_CG",
-		"W_EX020_CG_NM",
-		"W_EX020_CG_TR",
-		"W_EX020_CG_WI"
-	],
-	"Shield": [
-		"W_EX030",
-		"W_EX030_NM",
-		"W_EX030_TR",
-		"W_EX030_WI",
-		"W_EX030_10",
-		"W_EX030_10_NM",
-		"W_EX030_10_TR",
-		"W_EX030_10_WI",
-		"W_EX030_20",
-		"W_EX030_20_NM",
-		"W_EX030_20_TR",
-		"W_EX030_20_WI",
-		"W_EX030_30",
-		"W_EX030_30_NM",
-		"W_EX030_30_TR",
-		"W_EX030_30_WI",
-		"W_EX030_40",
-		"W_EX030_40_NM",
-		"W_EX030_40_TR",
-		"W_EX030_40_WI",
-		"W_EX030_50",
-		"W_EX030_50_NM",
-		"W_EX030_50_TR",
-		"W_EX030_50_WI",
-		"W_EX030_60",
-		"W_EX030_60_NM",
-		"W_EX030_60_TR",
-		"W_EX030_60_WI",
-		"W_EX030_70",
-		"W_EX030_70_NM",
-		"W_EX030_70_TR",
-		"W_EX030_70_WI",
-		"W_EX030_80",
-		"W_EX030_80_NM",
-		"W_EX030_80_TR",
-		"W_EX030_80_WI",
-		"W_EX030_84",
-		"W_EX030_84_NM",
-		"W_EX030_84_TR",
-		"W_EX030_84_WI",
-		"W_EX030_90",
-		"W_EX030_90_NM",
-		"W_EX030_90_TR",
-		"W_EX030_90_WI",
-		"W_EX030_A0",
-		"W_EX030_A0_NM",
-		"W_EX030_A0_TR",
-		"W_EX030_A0_WI",
-		"W_EX030_A4",
-		"W_EX030_A4_NM",
-		"W_EX030_A4_TR",
-		"W_EX030_A4_WI",
-		"W_EX030_B0",
-		"W_EX030_B0_NM",
-		"W_EX030_B0_TR",
-		"W_EX030_B0_WI",
-		"W_EX030_B4",
-		"W_EX030_B4_NM",
-		"W_EX030_B4_TR",
-		"W_EX030_B4_WI",
-		"W_EX030_C0",
-		"W_EX030_C0_NM",
-		"W_EX030_C0_TR",
-		"W_EX030_C0_WI",
-		"W_EX030_C4",
-		"W_EX030_C4_NM",
-		"W_EX030_C4_TR",
-		"W_EX030_C4_WI",
-		"W_EX030_C8",
-		"W_EX030_C8_NM",
-		"W_EX030_C8_TR",
-		"W_EX030_C8_WI",
-		"W_EX030_CC",
-		"W_EX030_CC_NM",
-		"W_EX030_CC_TR",
-		"W_EX030_CC_WI",
-		"W_EX030_CG",
-		"W_EX030_CG_NM",
-		"W_EX030_CG_TR",
-		"W_EX030_CG_WI"
-	]
+	"Party": {
+		"Sora": [
+			"P_EX100",
+			"P_EX100_BTLF",
+			"P_EX100_MAGF",
+			"P_EX100_KH1F",
+			"P_EX100_TRIF",
+			"P_EX100_ULTF",
+			"P_EX100_HTLF",
+			"P_EX100_NM",
+			"P_EX100_NM_BTLF",
+			"P_EX100_NM_MAGF",
+			"P_EX100_NM_KH1F",
+			"P_EX100_NM_TRIF",
+			"P_EX100_NM_ULTF",
+			"P_EX100_NM_HTLF",
+			"P_EX100_TR",
+			"P_EX100_TR_BTLF",
+			"P_EX100_TR_MAGF",
+			"P_EX100_TR_KH1F",
+			"P_EX100_TR_TRIF",
+			"P_EX100_TR_ULTF",
+			"P_EX100_TR_HTLF",
+			"P_EX100_WI",
+			"P_EX100_WI_BTLF",
+			"P_EX100_WI_MAGF",
+			"P_EX100_WI_KH1F",
+			"P_EX100_WI_TRIF",
+			"P_EX100_WI_ULTF",
+			"P_EX100_WI_HTLF",
+			"P_EX100_XM",
+			"P_EX100_XM_BTLF",
+			"P_EX100_XM_MAGF",
+			"P_EX100_XM_KH1F",
+			"P_EX100_XM_TRIF",
+			"P_EX100_XM_ULTF",
+			"P_EX100_XM_HTLF",
+			"P_EX100_AL_CARPET",
+			"P_EX100_TR_LIGHTCYCLE",
+			"PO06_PLAYER",
+			"AL14_PLAYER"
+		],
+		"Donald": [
+			"P_EX020",
+			"P_EX020_NM",
+			"P_EX020_TR",
+			"P_EX020_XM"
+		],
+		"Goofy": [
+			"P_EX030",
+			"P_EX030_NM",
+			"P_EX030_TR",
+			"P_EX030_XM"
+		],
+		"Jack Skellington": [
+			"P_NM000",
+			"P_NM000_SANTA"
+		]
+	},
+	"Weapon": {
+		"Keyblade": [
+			"W_EX010",
+			"W_EX010_NM",
+			"W_EX010_TR",
+			"W_EX010_WI",
+			"W_EX010_10",
+			"W_EX010_10_NM",
+			"W_EX010_10_TR",
+			"W_EX010_10_WI",
+			"W_EX010_20",
+			"W_EX010_20_NM",
+			"W_EX010_20_TR",
+			"W_EX010_20_WI",
+			"W_EX010_30",
+			"W_EX010_30_NM",
+			"W_EX010_30_TR",
+			"W_EX010_30_WI",
+			"W_EX010_40",
+			"W_EX010_40_NM",
+			"W_EX010_40_TR",
+			"W_EX010_40_WI",
+			"W_EX010_50",
+			"W_EX010_50_NM",
+			"W_EX010_50_TR",
+			"W_EX010_50_WI",
+			"W_EX010_60",
+			"W_EX010_60_NM",
+			"W_EX010_60_TR",
+			"W_EX010_60_WI",
+			"W_EX010_70",
+			"W_EX010_70_NM",
+			"W_EX010_70_TR",
+			"W_EX010_70_WI",
+			"W_EX010_80",
+			"W_EX010_80_NM",
+			"W_EX010_80_TR",
+			"W_EX010_80_WI",
+			"W_EX010_90",
+			"W_EX010_90_NM",
+			"W_EX010_90_TR",
+			"W_EX010_90_WI",
+			"W_EX010_A0",
+			"W_EX010_A0_NM",
+			"W_EX010_A0_TR",
+			"W_EX010_A0_WI",
+			"W_EX010_B0",
+			"W_EX010_B0_NM",
+			"W_EX010_B0_TR",
+			"W_EX010_B0_WI",
+			"W_EX010_C0",
+			"W_EX010_C0_NM",
+			"W_EX010_C0_TR",
+			"W_EX010_C0_WI",
+			"W_EX010_D0",
+			"W_EX010_D0_NM",
+			"W_EX010_D0_TR",
+			"W_EX010_D0_WI",
+			"W_EX010_E0",
+			"W_EX010_E0_NM",
+			"W_EX010_E0_TR",
+			"W_EX010_E0_WI",
+			"W_EX010_F0",
+			"W_EX010_F0_NM",
+			"W_EX010_F0_TR",
+			"W_EX010_F0_WI",
+			"W_EX010_G0",
+			"W_EX010_G0_NM",
+			"W_EX010_G0_TR",
+			"W_EX010_G0_WI",
+			"W_EX010_H0",
+			"W_EX010_H0_NM",
+			"W_EX010_H0_TR",
+			"W_EX010_H0_WI",
+			"W_EX010_J0",
+			"W_EX010_J0_NM",
+			"W_EX010_J0_TR",
+			"W_EX010_J0_WI",
+			"W_EX010_K0",
+			"W_EX010_K0_NM",
+			"W_EX010_K0_TR",
+			"W_EX010_K0_WI",
+			"W_EX010_M0",
+			"W_EX010_M0_NM",
+			"W_EX010_M0_TR",
+			"W_EX010_M0_WI",
+			"W_EX010_N0",
+			"W_EX010_N0_NM",
+			"W_EX010_N0_TR",
+			"W_EX010_N0_WI",
+			"W_EX010_P0",
+			"W_EX010_P0_NM",
+			"W_EX010_P0_TR",
+			"W_EX010_P0_WI",
+			"W_EX010_R0",
+			"W_EX010_R0_NM",
+			"W_EX010_R0_TR",
+			"W_EX010_R0_WI",
+			"W_EX010_U0",
+			"W_EX010_V0",
+			"W_EX010_W0",
+			"W_EX010_Y0",
+			"W_EX010_Z0"
+		],
+		"Staff": [
+			"W_EX020",
+			"W_EX020_NM",
+			"W_EX020_TR",
+			"W_EX020_WI",
+			"W_EX020_10",
+			"W_EX020_10_NM",
+			"W_EX020_10_TR",
+			"W_EX020_10_WI",
+			"W_EX020_20",
+			"W_EX020_20_NM",
+			"W_EX020_20_TR",
+			"W_EX020_20_WI",
+			"W_EX020_30",
+			"W_EX020_30_NM",
+			"W_EX020_30_TR",
+			"W_EX020_30_WI",
+			"W_EX020_40",
+			"W_EX020_40_NM",
+			"W_EX020_40_TR",
+			"W_EX020_40_WI",
+			"W_EX020_50",
+			"W_EX020_50_NM",
+			"W_EX020_50_TR",
+			"W_EX020_50_WI",
+			"W_EX020_60",
+			"W_EX020_60_NM",
+			"W_EX020_60_TR",
+			"W_EX020_60_WI",
+			"W_EX020_70",
+			"W_EX020_70_NM",
+			"W_EX020_70_TR",
+			"W_EX020_70_WI",
+			"W_EX020_80",
+			"W_EX020_80_NM",
+			"W_EX020_80_TR",
+			"W_EX020_80_WI",
+			"W_EX020_90",
+			"W_EX020_90_NM",
+			"W_EX020_90_TR",
+			"W_EX020_90_WI",
+			"W_EX020_94",
+			"W_EX020_94_NM",
+			"W_EX020_94_TR",
+			"W_EX020_94_WI",
+			"W_EX020_A0",
+			"W_EX020_A0_NM",
+			"W_EX020_A0_TR",
+			"W_EX020_A0_WI",
+			"W_EX020_A4",
+			"W_EX020_A4_NM",
+			"W_EX020_A4_TR",
+			"W_EX020_A4_WI",
+			"W_EX020_B0",
+			"W_EX020_B0_NM",
+			"W_EX020_B0_TR",
+			"W_EX020_B0_WI",
+			"W_EX020_B4",
+			"W_EX020_B4_NM",
+			"W_EX020_B4_TR",
+			"W_EX020_B4_WI",
+			"W_EX020_C0",
+			"W_EX020_C0_NM",
+			"W_EX020_C0_TR",
+			"W_EX020_C0_WI",
+			"W_EX020_C4",
+			"W_EX020_C4_NM",
+			"W_EX020_C4_TR",
+			"W_EX020_C4_WI",
+			"W_EX020_C8",
+			"W_EX020_C8_NM",
+			"W_EX020_C8_TR",
+			"W_EX020_C8_WI",
+			"W_EX020_CC",
+			"W_EX020_CC_NM",
+			"W_EX020_CC_TR",
+			"W_EX020_CC_WI",
+			"W_EX020_CG",
+			"W_EX020_CG_NM",
+			"W_EX020_CG_TR",
+			"W_EX020_CG_WI"
+		],
+		"Shield": [
+			"W_EX030",
+			"W_EX030_NM",
+			"W_EX030_TR",
+			"W_EX030_WI",
+			"W_EX030_10",
+			"W_EX030_10_NM",
+			"W_EX030_10_TR",
+			"W_EX030_10_WI",
+			"W_EX030_20",
+			"W_EX030_20_NM",
+			"W_EX030_20_TR",
+			"W_EX030_20_WI",
+			"W_EX030_30",
+			"W_EX030_30_NM",
+			"W_EX030_30_TR",
+			"W_EX030_30_WI",
+			"W_EX030_40",
+			"W_EX030_40_NM",
+			"W_EX030_40_TR",
+			"W_EX030_40_WI",
+			"W_EX030_50",
+			"W_EX030_50_NM",
+			"W_EX030_50_TR",
+			"W_EX030_50_WI",
+			"W_EX030_60",
+			"W_EX030_60_NM",
+			"W_EX030_60_TR",
+			"W_EX030_60_WI",
+			"W_EX030_70",
+			"W_EX030_70_NM",
+			"W_EX030_70_TR",
+			"W_EX030_70_WI",
+			"W_EX030_80",
+			"W_EX030_80_NM",
+			"W_EX030_80_TR",
+			"W_EX030_80_WI",
+			"W_EX030_84",
+			"W_EX030_84_NM",
+			"W_EX030_84_TR",
+			"W_EX030_84_WI",
+			"W_EX030_90",
+			"W_EX030_90_NM",
+			"W_EX030_90_TR",
+			"W_EX030_90_WI",
+			"W_EX030_A0",
+			"W_EX030_A0_NM",
+			"W_EX030_A0_TR",
+			"W_EX030_A0_WI",
+			"W_EX030_A4",
+			"W_EX030_A4_NM",
+			"W_EX030_A4_TR",
+			"W_EX030_A4_WI",
+			"W_EX030_B0",
+			"W_EX030_B0_NM",
+			"W_EX030_B0_TR",
+			"W_EX030_B0_WI",
+			"W_EX030_B4",
+			"W_EX030_B4_NM",
+			"W_EX030_B4_TR",
+			"W_EX030_B4_WI",
+			"W_EX030_C0",
+			"W_EX030_C0_NM",
+			"W_EX030_C0_TR",
+			"W_EX030_C0_WI",
+			"W_EX030_C4",
+			"W_EX030_C4_NM",
+			"W_EX030_C4_TR",
+			"W_EX030_C4_WI",
+			"W_EX030_C8",
+			"W_EX030_C8_NM",
+			"W_EX030_C8_TR",
+			"W_EX030_C8_WI",
+			"W_EX030_CC",
+			"W_EX030_CC_NM",
+			"W_EX030_CC_TR",
+			"W_EX030_CC_WI",
+			"W_EX030_CG",
+			"W_EX030_CG_NM",
+			"W_EX030_CG_TR",
+			"W_EX030_CG_WI"
+		]
+	},
+	"Chest": {
+		"Small": [
+			"F_EX030",
+			"F_EX030_AL",
+			"F_EX030_BB",
+			"F_EX030_CA",
+			"F_EX030_DC",
+			"F_EX030_EH",
+			"F_EX030_HE",
+			"F_EX030_MU",
+			"F_EX030_NM",
+			"F_EX030_NM_XMAS",
+			"F_EX030_PO",
+			"F_EX030_TR",
+			"F_EX030_TT",
+			"F_EX030_WI"
+		],
+		"Large": [
+			"F_EX040",
+			"F_EX040_AL",
+			"F_EX040_BB",
+			"F_EX040_CA",
+			"F_EX040_DC",
+			"F_EX040_EH",
+			"F_EX040_HB",
+			"F_EX040_HE",
+			"F_EX040_MU",
+			"F_EX040_NM",
+			"F_EX040_NM_XMAS",
+			"F_EX040_PO",
+			"F_EX040_TR",
+			"F_EX040_TT",
+			"F_EX040_WI"
+		]
+	},
+	"Enemy": {
+		"Genie Jafar": [
+			"B_AL020"
+		],
+		"Volcanic Lord": [
+			"B_AL100_1ST",
+			"B_AL100_FIRE"
+		],
+		"Blizzard Lord": [
+			"B_AL100_2ND",
+			"B_AL100_ICE"
+		],
+		"Thresholder": [
+			"B_BB100",
+			"B_BB100_TSURU"
+		],
+		"Dark Thorn": [
+			"B_BB110"
+		],
+		"Shadow Stalker": [
+			"B_BB120"
+		],
+		"Illuminator": [
+			"B_CA000"
+		],
+		"Grim Reaper": [
+			"B_CA050"
+		],
+		"Twilight Thorn": [
+			"B_EX100"
+		],
+		"Axel": [
+			"B_EX110",
+			"B_EX110_FRIEND",
+			"B_EX110_LV99",
+			"B_EX110_RTN",
+			"B_EX110_SKIRMISH"
+		],
+		"Demyx": [
+			"B_EX120",
+			"B_EX120_HB",
+			"B_EX120_HB_LV99"
+		],
+		"Xaldin": [
+			"B_EX130",
+			"B_EX130_LV99"
+		],
+		"Xigbar": [
+			"B_EX140",
+			"B_EX140_LV99"
+		],
+		"Luxord": [
+			"B_EX150",
+			"B_EX150_LV99"
+		],
+		"Saix": [
+			"B_EX160",
+			"B_EX160_LV99"
+		],
+		"Xemnas I": [
+			"B_EX170",
+			"B_EX170_LV99",
+			"B_EX170_RTN"
+		],
+		"Xemnas II": [
+			"B_EX170_LAST",
+			"B_EX170_LAST_LV99"
+		],
+		"Roxas": [
+			"B_EX390"
+		],
+		"Cerberus": [
+			"B_HE020"
+		],
+		"Hydra": [
+			"B_HE100"
+		],
+		"Hydra's Head": [
+			"B_HE110"
+		],
+		"Scar": [
+			"B_LK110"
+		],
+		"Groundshaker": [
+			"B_LK120"
+		],
+		"Storm Rider": [
+			"B_MU120"
+		],
+		"Prison Keeper": [
+			"B_NM100"
+		],
+		"Experiment": [
+			"B_NM110",
+			"B_NM110_HEAD",
+			"B_NM110_L_ARM",
+			"B_NM110_R_ARM"
+		],
+		"Hostile Program": [
+			"B_TR000"
+		],
+		"MCP": [
+			"B_TR020"
+		],
+		"Shadow Chandelier": [
+			"F_BB050"
+		],
+		"Shadow Pillar": [
+			"F_BB060"
+		],
+		"Fire Globe": [
+			"M_AL020_FIRE",
+			"M_AL020_FIRE_RAW",
+			"M_AL020_FIRE2"
+		],
+		"Icy Cube": [
+			"M_AL020_ICEE",
+			"M_AL020_ICEE_RAW",
+			"M_AL020_ICEE2"
+		],
+		"Gargoyle Warrior": [
+			"M_BB010_AX"
+		],
+		"Gargoyle Knight": [
+			"M_BB010_SWORD"
+		],
+		"Soldier": [
+			"M_EX010",
+			"M_EX010_NM",
+			"M_EX010_TR",
+			"M_EX010_WI"
+		],
+		"Shadow": [
+			"M_EX020",
+			"M_EX020_RAW",
+			"M_EX020_NM",
+			"M_EX020_NM_RAW",
+			"M_EX020_WI",
+			"M_EX020_WI_RAW"
+		],
+		"Large Body": [
+			"M_EX050",
+			"M_EX050_WI"
+		],
+		"Fat Bandit": [
+			"M_EX060"
+		],
+		"Silver Rock": [
+			"M_EX110"
+		],
+		"Emerald Blues": [
+			"M_EX120",
+			"M_EX120_HB",
+			"M_EX120_NM",
+			"M_EX120_TR"
+		],
+		"Crimson Jazz": [
+			"M_EX130",
+			"M_EX130_AL"
+		],
+		"Wight Knight": [
+			"M_EX200",
+			"M_EX200_NM"
+		],
+		"Air Pirate": [
+			"M_EX210",
+			"M_EX210_HB"
+		],
+		"Mushroom I": [
+			"M_EX350_01"
+		],
+		"Mushroom II": [
+			"M_EX350_02"
+		],
+		"Mushroom III": [
+			"M_EX350_03"
+		],
+		"Mushroom IV": [
+			"M_EX350_04"
+		],
+		"Mushroom V": [
+			"M_EX350_05"
+		],
+		"Mushroom VI": [
+			"M_EX350_06"
+		],
+		"Mushroom VII": [
+			"M_EX350_07"
+		],
+		"Mushroom VIII": [
+			"M_EX350_08"
+		],
+		"Mushroom IX": [
+			"M_EX350_09"
+		],
+		"Mushroom X": [
+			"M_EX350_10"
+		],
+		"Mushroom XI": [
+			"M_EX350_11"
+		],
+		"Mushroom XII": [
+			"M_EX350_12"
+		],
+		"Mushroom XIII": [
+			"M_EX350_13"
+		],
+		"Neoshadow": [
+			"M_EX420",
+			"M_EX420_NM"
+		],
+		"Trick Ghost": [
+			"M_EX500",
+			"M_EX500_HB",
+			"M_EX500_NM"
+		],
+		"Rabid Dog": [
+			"M_EX510"
+		],
+		"Hook Bat": [
+			"M_EX520",
+			"M_EX520_AL",
+			"M_EX520_HB"
+		],
+		"Bookmaster": [
+			"M_EX530",
+			"M_EX530_HB",
+			"M_EX530_TR"
+		],
+		"Aeroplane": [
+			"M_EX540",
+			"M_EX540_WI"
+		],
+		"Minute Bomb": [
+			"M_EX550"
+		],
+		"Hammer Frame": [
+			"M_EX560",
+			"M_EX560_HB",
+			"M_EX560_WI"
+		],
+		"Assault Rider": [
+			"M_EX570"
+		],
+		"Nightwalker": [
+			"M_EX580"
+		],
+		"Bulky Vendor": [
+			"M_EX590",
+			"M_EX590_NM"
+		],
+		"Magnum Loader": [
+			"M_EX600",
+			"M_EX600_LC",
+			"M_EX600_LC_ATK",
+			"M_EX600_LC_CHG",
+			"M_EX600_LC_GRD"
+		],
+		"Strafer": [
+			"M_EX610",
+			"M_EX610_RAW"
+		],
+		"Fortuneteller": [
+			"M_EX620",
+			"M_EX620_AL"
+		],
+		"Luna Bandit": [
+			"M_EX630"
+		],
+		"Hot Rod": [
+			"M_EX640",
+			"M_EX640_HB",
+			"M_EX640_WI"
+		],
+		"Cannon Gun": [
+			"M_EX650",
+			"M_EX650_HB",
+			"M_EX650_TR"
+		],
+		"Rapid Thruster": [
+			"M_EX660",
+			"M_EX660_RAW",
+			"M_EX660_AL",
+			"M_EX660_WI",
+			"M_EX660_WI_RAW"
+		],
+		"Living Bone": [
+			"M_EX670"
+		],
+		"Devastator": [
+			"M_EX680",
+			"M_EX680_HB"
+		],
+		"Lance Soldier": [
+			"M_EX690",
+			"M_EX690_HB"
+		],
+		"Driller Mole": [
+			"M_EX700",
+			"M_EX700_NM"
+		],
+		"Morning Star": [
+			"M_EX710"
+		],
+		"Shaman": [
+			"M_EX720",
+			"M_EX720_HB"
+		],
+		"Tornado Step": [
+			"M_EX730"
+		],
+		"Loudmouth": [
+			"M_EX740"
+		],
+		"Armored Knight": [
+			"M_EX760",
+			"M_EX760_RAW",
+			"M_EX760_NM",
+			"M_EX760_NM_RAW"
+		],
+		"Surveillance Robot": [
+			"M_EX770",
+			"M_EX770_RAW",
+			"M_EX770_TR",
+			"M_EX770_TR_RAW"
+		],
+		"Aerial Knocker": [
+			"M_EX780",
+			"M_EX780_HB"
+		],
+		"Graveyard": [
+			"M_EX790",
+			"M_EX790_HALLOWEEN",
+			"M_EX790_HALLOWEEN_NM"
+		],
+		"Toy Soldier": [
+			"M_EX790_CHRISTMAS",
+			"M_EX790_CHRISTMAS_NM"
+		],
+		"Bolt Tower": [
+			"M_EX800",
+			"M_EX800_RAW",
+			"M_EX800_DC",
+			"M_EX800_MU",
+			"M_EX800_MU_RAW"
+		],
+		"Berserker's Clay": [
+			"M_EX850"
+		],
+		"Creeper": [
+			"M_EX880"
+		],
+		"Dragoon": [
+			"M_EX890"
+		],
+		"Assassin": [
+			"M_EX900"
+		],
+		"Samurai": [
+			"M_EX910"
+		],
+		"Sniper": [
+			"M_EX920"
+		],
+		"Dancer": [
+			"M_EX960"
+		],
+		"Berserker": [
+			"M_EX940"
+		],
+		"Gambler": [
+			"M_EX950"
+		],
+		"Dusk": [
+			"M_EX990",
+			"M_EX990_RTN",
+			"M_EX990_RTN_FIXCOLOR"
+		],
+		"Pete": [
+			"N_EX760",
+			"N_EX760_BTL",
+			"N_EX760_BTL_CLSM",
+			"N_EX760_BTL_HERCULES",
+			"N_EX760_BTL_MEGARA",
+			"N_EX760_BTL_WILLY",
+			"N_EX760_RTN"
+		],
+		"Sark": [
+			"N_TR010_BTL"
+		],
+		"Giant Sark": [
+			"N_TR010_BTL_L"
+		]
+	}
 }
