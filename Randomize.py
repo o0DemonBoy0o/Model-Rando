@@ -8,6 +8,8 @@ def writemodel(old,new):
     f.write('- name: obj/'+old+'.mdlx\n  method: binarc\n  source:\n')
     if objtype != 'Enemy':
         subfile = old[:4].lower()
+        if old == 'PO06_PLAYER' or old == 'AL14_PLAYER':
+            subfile = 'p_ex'
         f.write('  - name: '+subfile+'\n    type: model\n    method: copy\n    source:\n'+
             '    - name: obj/'+new+'.model\n') #Model
     f.write('  - name: tim_\n    type: modeltexture\n    method: copy\n    source:\n'+
