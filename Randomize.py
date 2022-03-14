@@ -18,7 +18,11 @@ def writemodelOLD(old,new):
 #Write entries for editing mdlx and adding hd textures
 def writemodelFull(oldname,newname,newfile,filedir,hdlist):
     #MDLX (Avoid conflict with Wisdom Form)
-    internal = True if filedir == "Extracted" else false
+    internal = True if filedir == "Extracted" else False
+    subfolder = "" 
+    if internal:
+        subfolder = "obj/"
+    
     f.write('- name: obj/'+oldname+'.mdlx\n  method: binarc\n  source:\n')
     subfile = oldname[:4].lower()
     if oldname == 'PO06_PLAYER' or oldname == 'PO07_PLAYER' or oldname == 'PO08_PLAYER' or oldname == 'AL14_PLAYER':
@@ -32,7 +36,7 @@ def writemodelFull(oldname,newname,newfile,filedir,hdlist):
         new_file = hdlist[i]
         number = "-"+str(i)+".dds"
         f.write('- method: copy\n  name: remastered/obj/'+oldname+'.mdlx/'+number+'\n  source:\n')
-        f.write('  - name: remastered/obj/'+newname+'.mdlx/'+new_file+'\n')
+        f.write('  - name: remastered/'+subfolder+newname+'.mdlx/'+new_file+'\n')
         if internal:
             f.write('    type: internal\n')
 
@@ -52,7 +56,7 @@ def writemodelOrig(oldname,newfile):
 def writemodelRaw(oldname,newname):
     #MDLX (Avoid conflict with Wisdom Form)
     f.write('- method: copy\n  name: raw/obj/'+oldname+'.mdlx\n  source:\n')
-    f.write('  - name: raw/obj/'+newname+'.mdlx\n')
+    f.write('  - name: raw/'+newname+'.mdlx\n')
 
 #Get KH2 model filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
@@ -74,7 +78,14 @@ f.write('assets:\n')
 for category in modellist:
     for models in modellist[category]:
         shuffledlist = modellist[category][models].copy() #create a copy of model list then shuffle it
+        
+        for extras in extralists:
+            templist = json.load(open(extrasPath+os.sep+extras))
+            shuffledlist += templist[category][models]
+
+        print(shuffledlist)
         random.shuffle(shuffledlist)
+        
         for i in range(len(modellist[category][models])):
             orig_file = modellist[category][models][i]
             rand_file = shuffledlist[i]

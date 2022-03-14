@@ -1,4 +1,5 @@
-description: Credits to Num for original code.
+title: Model Rando - PC
+description: Credits to Num for original code. Edits by DA for use on PC Port.
 assets:
 - name: obj/P_EX100.mdlx
   method: binarc
@@ -7,42 +8,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/Sora_TR_L.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_BTLF.mdlx/-5.dds
-    type: internal
+    - name: obj_pc/Sora_TR_L.tim
 - name: obj/P_EX100_BTLF.mdlx
   method: binarc
   source:
@@ -50,42 +21,36 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/kh3/Sora_KH3_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
+    - name: obj_pc/kh3/Sora_KH3_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-0.dds
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-1.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-1.dds
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-4.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-2.dds
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-2.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-3.dds
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-3.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-4.dds
 - method: copy
   name: remastered/obj/P_EX100_BTLF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_MAGF.mdlx/-5.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_TRIF.mdlx/-5.dds
 - name: obj/P_EX100_MAGF.mdlx
   method: binarc
   source:
@@ -93,86 +58,43 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_NM.model
+    - name: obj_pc/Sora_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_NM.tim
+    - name: obj_pc/Sora_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-6.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MAGF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-7.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_MAGF.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-8.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_MAGF.mdlx/-7.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_MAGF.mdlx/-8.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_TRIF.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_WI.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_WI.tim
-- method: copy
-  name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_KH1F.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_KH1F.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-2.dds
-    type: internal
-- name: obj/P_EX100_TRIF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -186,35 +108,48 @@ assets:
     source:
     - name: obj_pc/Sora_XM.tim
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-1.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-1.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-2.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-2.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-3.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-3.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-4.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-4.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_TRIF.mdlx/-5.dds
+  name: remastered/obj/P_EX100_KH1F.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-5.dds
     type: internal
+- name: obj/P_EX100_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_TR_M.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_TR_M.tim
 - name: obj/P_EX100_ULTF.mdlx
   method: binarc
   source:
@@ -231,32 +166,32 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-1.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-4.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-2.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-3.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_ULTF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_TRIF.mdlx/-5.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_LAST.mdlx
   method: binarc
@@ -265,27 +200,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_WI.model
+    - name: obj_pc/Sora_TR.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_WI.tim
-- method: copy
-  name: remastered/obj/P_EX100_LAST.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_LAST.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_LAST.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-2.dds
-    type: internal
+    - name: obj_pc/Sora_TR.tim
 - name: obj/P_EX100_MEMO.mdlx
   method: binarc
   source:
@@ -293,33 +213,85 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.model
+    - name: obj_pc/Sora_Anti_NM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.tim
+    - name: obj_pc/Sora_Anti_NM.tim
 - method: copy
   name: remastered/obj/P_EX100_MEMO.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MEMO.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MEMO.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_MEMO.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_MEMO.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_MEMO.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-5.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_MEMO.mdlx/-6.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-6.dds
     type: internal
 - name: obj/P_EX100_NPC.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/kh3/Sora_KH3_Base.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/kh3/Sora_KH3_Base.tim
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-0.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-0.dds
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-1.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-1.dds
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-2.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-2.dds
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-3.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-3.dds
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-4.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-4.dds
+- method: copy
+  name: remastered/obj/P_EX100_NPC.mdlx/-5.dds
+  source:
+  - name: remastered/kh3/P_EX100_ULTF.mdlx/-5.dds
+- name: obj/P_EX100_SIDECAR.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -333,36 +305,36 @@ assets:
     source:
     - name: obj_pc/Sora_XM.tim
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-0.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-0.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-1.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-1.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-2.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-2.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-3.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-3.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-4.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-4.dds
     type: internal
 - method: copy
-  name: remastered/obj/P_EX100_NPC.mdlx/-5.dds
+  name: remastered/obj/P_EX100_SIDECAR.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_XM.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-5.dds
     type: internal
-- name: obj/P_EX100_SIDECAR.mdlx
+- name: obj/P_EX100_WM.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -376,92 +348,49 @@ assets:
     source:
     - name: obj_pc/Sora_NM.tim
 - method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-5.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-6.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-7.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-8.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-7.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_SIDECAR.mdlx/-8.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-2.dds
-    type: internal
-- name: obj/P_EX100_WM.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.tim
-- method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-5.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-6.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WM.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_NPC.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-7.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WM.mdlx/-6.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-8.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WM.mdlx/-7.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WM.mdlx/-8.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_AL_CARPET.mdlx
   method: binarc
@@ -470,41 +399,26 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/Sora_WI.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
+    - name: obj_pc/Sora_WI.tim
 - method: copy
   name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
   source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_AL_CARPET.mdlx/-1.dds
   source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_AL_CARPET.mdlx/-2.dds
   source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_AL_CARPET.mdlx/-3.dds
-  source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_AL_CARPET.mdlx/-4.dds
-  source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_AL_CARPET.mdlx/-5.dds
-  source:
-  - name: remastered/obj/PO06_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-2.dds
     type: internal
 - name: obj/AL14_PLAYER.mdlx
   method: binarc
@@ -513,12 +427,42 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_TR_L.model
+    - name: obj_pc/Sora_XM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_TR_L.tim
+    - name: obj_pc/Sora_XM.tim
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/AL14_PLAYER.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-5.dds
+    type: internal
 - name: obj/PO06_PLAYER.mdlx
   method: binarc
   source:
@@ -526,56 +470,37 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Anti_TR.model
+    - name: obj_pc/kh3/Sora_KH3_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Anti_TR.tim
+    - name: obj_pc/kh3/Sora_KH3_Base.tim
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-0.dds
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-1.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-1.dds
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-2.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-2.dds
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-3.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-3.dds
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-4.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-4.dds
+- method: copy
+  name: remastered/obj/PO06_PLAYER.mdlx/-5.dds
+  source:
+  - name: remastered/kh3/P_EX100.mdlx/-5.dds
 - name: obj/PO07_PLAYER.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.tim
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/PO07_PLAYER.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_WM.mdlx/-5.dds
-    type: internal
-- name: obj/PO08_PLAYER.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -588,7 +513,7 @@ assets:
     method: copy
     source:
     - name: obj_pc/Sora_TR.tim
-- name: obj/P_EX100_NM.mdlx
+- name: obj/PO08_PLAYER.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -602,34 +527,62 @@ assets:
     source:
     - name: obj_pc/Sora_Base.tim
 - method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/PO08_PLAYER.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_MEMO.mdlx/-5.dds
+    type: internal
+- name: obj/P_EX100_NM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_WI.tim
+- method: copy
   name: remastered/obj/P_EX100_NM.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_NM_BTLF.mdlx
   method: binarc
@@ -647,47 +600,47 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-5.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-6.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-6.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-7.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-7.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-6.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-8.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-8.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-7.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_BTLF.mdlx/-8.dds
   source:
-  - name: remastered/obj/P_EX100_NM.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_NM_MAGF.mdlx
   method: binarc
@@ -705,108 +658,34 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_MAGF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_NM_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_TR_M.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_TR_M.tim
-- name: obj/P_EX100_NM_TRIF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_TR_W.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_TR_W.tim
-- name: obj/P_EX100_NM_ULTF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Anti_NM.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Anti_NM.tim
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-5.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-6.dds
-    type: internal
-- name: obj/P_EX100_TR.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -820,34 +699,168 @@ assets:
     source:
     - name: obj_pc/Sora_Base.tim
 - method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_KH1F.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_KH1F.mdlx/-5.dds
+    type: internal
+- name: obj/P_EX100_NM_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.tim
+- method: copy
+  name: remastered/obj/P_EX100_NM_TRIF.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_TRIF.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_TRIF.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_TRIF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-3.dds
+    type: internal
+- name: obj/P_EX100_NM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_Base.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_Base.tim
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_ULTF.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-5.dds
+    type: internal
+- name: obj/P_EX100_TR.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_NM.tim
+- method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-0.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-1.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-2.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-3.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-5.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-4.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-6.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR.mdlx/-5.dds
   source:
-  - name: remastered/obj/PO08_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-7.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR.mdlx/-6.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-8.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR.mdlx/-7.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR.mdlx/-8.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_TR_BTLF.mdlx
   method: binarc
@@ -865,32 +878,32 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_BTLF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_MAGF.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_TR_MAGF.mdlx
   method: binarc
@@ -899,66 +912,13 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.model
+    - name: obj_pc/Sora_TR_W.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.tim
-- method: copy
-  name: remastered/obj/P_EX100_TR_MAGF.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_MAGF.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_HTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_MAGF.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_HTLF.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_MAGF.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_HTLF.mdlx/-3.dds
-    type: internal
+    - name: obj_pc/Sora_TR_W.tim
 - name: obj/P_EX100_TR_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Anti.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Anti.tim
-- method: copy
-  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-3.dds
-    type: internal
-- name: obj/P_EX100_TR_TRIF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -972,51 +932,117 @@ assets:
     source:
     - name: obj_pc/Sora_NM.tim
 - method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-5.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-6.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-7.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-6.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-8.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-7.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_KH1F.mdlx/-8.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-2.dds
+    type: internal
+- name: obj/P_EX100_TR_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.tim
+- method: copy
   name: remastered/obj/P_EX100_TR_TRIF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_TRIF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_HTLF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_TRIF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_HTLF.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_TRIF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-5.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_TRIF.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-6.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_TRIF.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-7.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_TRIF.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-8.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_TRIF.mdlx/-7.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_TRIF.mdlx/-8.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_HTLF.mdlx/-3.dds
     type: internal
 - name: obj/P_EX100_TR_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_Anti.tim
+- method: copy
+  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-3.dds
+    type: internal
+- name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -1030,62 +1056,19 @@ assets:
     source:
     - name: obj_pc/Sora_WI.tim
 - method: copy
-  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_ULTF.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-2.dds
-    type: internal
-- name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_XM.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_XM.tim
-- method: copy
   name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_WI.mdlx
   method: binarc
@@ -1094,41 +1077,41 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_XM.model
+    - name: obj_pc/Sora_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_XM.tim
+    - name: obj_pc/Sora_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WM.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_WI_BTLF.mdlx
   method: binarc
@@ -1137,41 +1120,56 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/Sora_NM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
+    - name: obj_pc/Sora_NM.tim
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-3.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-5.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-4.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-6.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_BTLF.mdlx/-5.dds
   source:
-  - name: remastered/obj/PO07_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-7.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_BTLF.mdlx/-6.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-8.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_BTLF.mdlx/-7.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_BTLF.mdlx/-8.dds
+  source:
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_WI_MAGF.mdlx
   method: binarc
@@ -1180,41 +1178,26 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/Sora_WI.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
+    - name: obj_pc/Sora_WI.tim
 - method: copy
   name: remastered/obj/P_EX100_WI_MAGF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_MAGF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_MAGF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_MAGF.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_MAGF.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_MAGF.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_KH1F.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-2.dds
     type: internal
 - name: obj/P_EX100_WI_KH1F.mdlx
   method: binarc
@@ -1223,16 +1206,41 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.model
+    - name: obj_pc/Sora_XM.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Anti.tim
+    - name: obj_pc/Sora_XM.tim
 - method: copy
   name: remastered/obj/P_EX100_WI_KH1F.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_WI_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_KH1F.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_KH1F.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_KH1F.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_KH1F.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_WI_KH1F.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_WI_TRIF.mdlx
   method: binarc
@@ -1241,42 +1249,28 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_Base.model
+    - name: obj_pc/kh3/Sora_KH3_Anti.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_Base.tim
+    - name: obj_pc/kh3/Sora_KH3_Anti.tim
 - method: copy
   name: remastered/obj/P_EX100_WI_TRIF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-0.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_HTLF.mdlx/-0.dds
 - method: copy
   name: remastered/obj/P_EX100_WI_TRIF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-1.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_HTLF.mdlx/-1.dds
 - method: copy
   name: remastered/obj/P_EX100_WI_TRIF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-4.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_HTLF.mdlx/-2.dds
 - method: copy
   name: remastered/obj/P_EX100_WI_TRIF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_TRIF.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_TRIF.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_LAST.mdlx/-5.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_HTLF.mdlx/-3.dds
 - name: obj/P_EX100_WI_ULTF.mdlx
   method: binarc
   source:
@@ -1284,56 +1278,41 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_NM.model
+    - name: obj_pc/Sora_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_NM.tim
+    - name: obj_pc/Sora_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-6.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_WI_ULTF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-7.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_ULTF.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-8.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_ULTF.mdlx/-7.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_WI_ULTF.mdlx/-8.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_SIDECAR.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_XM.mdlx
   method: binarc
@@ -1342,56 +1321,41 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_NM.model
+    - name: obj_pc/Sora_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_NM.tim
+    - name: obj_pc/Sora_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-3.dds
+  - name: remastered/obj/P_EX100.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-4.dds
+  - name: remastered/obj/P_EX100.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-5.dds
+  - name: remastered/obj/P_EX100.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-6.dds
+  - name: remastered/obj/P_EX100.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-7.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM.mdlx/-6.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-8.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM.mdlx/-7.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM.mdlx/-8.dds
-  source:
-  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-2.dds
+  - name: remastered/obj/P_EX100.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_XM_BTLF.mdlx
   method: binarc
@@ -1400,99 +1364,13 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_TR.model
+    - name: obj_pc/Sora_Anti_TR.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_TR.tim
+    - name: obj_pc/Sora_Anti_TR.tim
 - name: obj/P_EX100_XM_MAGF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.tim
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_MAGF.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100_MEMO.mdlx/-5.dds
-    type: internal
-- name: obj/P_EX100_XM_KH1F.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_Base.tim
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-0.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-1.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-1.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-2.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-4.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-3.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-2.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-4.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-3.dds
-    type: internal
-- method: copy
-  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-5.dds
-  source:
-  - name: remastered/obj/P_EX100.mdlx/-5.dds
-    type: internal
-- name: obj/P_EX100_XM_TRIF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -1505,63 +1383,44 @@ assets:
     method: copy
     source:
     - name: obj_pc/Sora_TR_F.tim
-- name: obj/P_EX100_XM_ULTF.mdlx
+- name: obj/P_EX100_XM_KH1F.mdlx
   method: binarc
   source:
   - name: p_ex
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_TR_V.model
+    - name: obj_pc/kh3/Sora_KH3_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_TR_V.tim
-- name: obj/P_EX100_HTLF.mdlx
-  method: binarc
-  source:
-  - name: p_ex
-    type: model
-    method: copy
-    source:
-    - name: obj_pc/Sora_XM.model
-  - name: tim_
-    type: modeltexture
-    method: copy
-    source:
-    - name: obj_pc/Sora_XM.tim
+    - name: obj_pc/kh3/Sora_KH3_Base.tim
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-0.dds
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-1.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-1.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-1.dds
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-2.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-2.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-2.dds
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-3.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-3.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-3.dds
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-4.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-4.dds
-    type: internal
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-4.dds
 - method: copy
-  name: remastered/obj/P_EX100_HTLF.mdlx/-5.dds
+  name: remastered/obj/P_EX100_XM_KH1F.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-5.dds
-    type: internal
-- name: obj/P_EX100_HTLF_BTL.mdlx
+  - name: remastered/kh3/P_EX100_MAGF.mdlx/-5.dds
+- name: obj/P_EX100_XM_TRIF.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -1575,34 +1434,157 @@ assets:
     source:
     - name: obj_pc/Sora_Base.tim
 - method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-1.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-2.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-4.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_TRIF.mdlx/-5.dds
+  source:
+  - name: remastered/obj/PO08_PLAYER.mdlx/-5.dds
+    type: internal
+- name: obj/P_EX100_XM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_Base.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_Base.tim
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-0.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-1.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-1.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-2.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_XM_ULTF.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_ULTF.mdlx/-5.dds
+    type: internal
+- name: obj/P_EX100_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/kh3/Sora_KH3_Base.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/kh3/Sora_KH3_Base.tim
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-0.dds
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-1.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-1.dds
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-2.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-2.dds
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-3.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-3.dds
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-4.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-4.dds
+- method: copy
+  name: remastered/obj/P_EX100_HTLF.mdlx/-5.dds
+  source:
+  - name: remastered/kh3/P_EX100_BTLF.mdlx/-5.dds
+- name: obj/P_EX100_HTLF_BTL.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: obj_pc/Sora_XM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj_pc/Sora_XM.tim
+- method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-1.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-2.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-4.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-3.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-4.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-3.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-5.dds
   source:
-  - name: remastered/obj/AL14_PLAYER.mdlx/-5.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_NM_HTLF.mdlx
   method: binarc
@@ -1611,26 +1593,41 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj_pc/Sora_WI.model
+    - name: obj_pc/Sora_Base.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj_pc/Sora_WI.tim
+    - name: obj_pc/Sora_Base.tim
 - method: copy
   name: remastered/obj/P_EX100_NM_HTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_HTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_NM_HTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_LAST.mdlx/-4.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_HTLF.mdlx/-3.dds
+  source:
+  - name: remastered/obj/P_EX100_LAST.mdlx/-2.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_HTLF.mdlx/-4.dds
+  source:
+  - name: remastered/obj/P_EX100_LAST.mdlx/-3.dds
+    type: internal
+- method: copy
+  name: remastered/obj/P_EX100_NM_HTLF.mdlx/-5.dds
+  source:
+  - name: remastered/obj/P_EX100_LAST.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_TR_HTLF.mdlx
   method: binarc
@@ -1648,32 +1645,32 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-1.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-4.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-4.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-3.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-2.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-2.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-4.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-3.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-3.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_TR_HTLF.mdlx/-5.dds
   source:
-  - name: remastered/obj/P_EX100_ULTF.mdlx/-5.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-5.dds
     type: internal
 - name: obj/P_EX100_WI_HTLF.mdlx
   method: binarc
@@ -1719,135 +1716,111 @@ assets:
 - method: copy
   name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
   source:
-  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-0.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM_HTLF.mdlx/-1.dds
   source:
-  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-1.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-1.dds
     type: internal
 - method: copy
   name: remastered/obj/P_EX100_XM_HTLF.mdlx/-2.dds
   source:
-  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-2.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-2.dds
     type: internal
 - method: copy
   name: raw/obj/H_EX500.mdlx
   source:
-  - name: raw/obj/H_EX500_BTLF.mdlx
+  - name: raw/kh3/H_EX500_MAGF.mdlx
 - method: copy
   name: raw/obj/H_EX500_BTLF.mdlx
   source:
-  - name: raw/obj/H_EX500_XM_BTLF.mdlx
+  - name: raw/H_EX500_NM_KH1F.mdlx
 - method: copy
   name: raw/obj/H_EX500_MAGF.mdlx
   source:
-  - name: raw/obj/H_EX500_NM_BTLF.mdlx
+  - name: raw/H_EX500_XM_TRIF.mdlx
 - method: copy
   name: raw/obj/H_EX500_KH1F.mdlx
   source:
-  - name: raw/obj/H_EX500_NM_ULTF.mdlx
+  - name: raw/H_EX500_XM_BTLF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TRIF.mdlx
   source:
-  - name: raw/obj/H_EX500_WI_TRIF.mdlx
+  - name: raw/H_EX500_TR.mdlx
 - method: copy
   name: raw/obj/H_EX500_ULTF.mdlx
   source:
-  - name: raw/obj/H_EX500_XM_ULTF.mdlx
+  - name: raw/kh3/H_EX500.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM.mdlx
   source:
-  - name: raw/obj/H_EX500_TRIF.mdlx
+  - name: raw/H_EX500_TR_TRIF.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM_BTLF.mdlx
   source:
-  - name: raw/obj/H_EX500_TR_KH1F.mdlx
+  - name: raw/H_EX500_XM.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM_MAGF.mdlx
   source:
-  - name: raw/obj/H_EX500_XM_TRIF.mdlx
+  - name: raw/kh3/H_EX500_BTLF.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM_KH1F.mdlx
   source:
-  - name: raw/obj/H_EX500_WI_ULTF.mdlx
+  - name: raw/H_EX500_TR_BTLF.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM_TRIF.mdlx
   source:
-  - name: raw/obj/H_EX500_ULTF.mdlx
+  - name: raw/H_EX500_NM_BTLF.mdlx
 - method: copy
   name: raw/obj/H_EX500_NM_ULTF.mdlx
   source:
-  - name: raw/obj/H_EX500_TR_BTLF.mdlx
+  - name: raw/H_EX500_NM_ULTF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR.mdlx
   source:
-  - name: raw/obj/H_EX500_WI.mdlx
+  - name: raw/H_EX500_NM_TRIF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR_BTLF.mdlx
   source:
-  - name: raw/obj/H_EX500_MAGF.mdlx
+  - name: raw/H_EX500_TR_ULTF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR_MAGF.mdlx
   source:
-  - name: raw/obj/H_EX500_TR_ULTF.mdlx
+  - name: raw/H_EX500_BTLF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR_KH1F.mdlx
   source:
-  - name: raw/obj/H_EX500_TR.mdlx
+  - name: raw/H_EX500_ULTF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR_TRIF.mdlx
   source:
-  - name: raw/obj/H_EX500_WI_MAGF.mdlx
+  - name: raw/kh3/H_EX500_ULTF.mdlx
 - method: copy
   name: raw/obj/H_EX500_TR_ULTF.mdlx
   source:
-  - name: raw/obj/H_EX500_NM_KH1F.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI.mdlx
-  source:
-  - name: raw/obj/H_EX500_XM_KH1F.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI_BTLF.mdlx
-  source:
-  - name: raw/obj/H_EX500_NM_TRIF.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI_MAGF.mdlx
-  source:
-  - name: raw/obj/H_EX500_TR_TRIF.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI_KH1F.mdlx
-  source:
-  - name: raw/obj/H_EX500_XM_MAGF.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI_TRIF.mdlx
-  source:
-  - name: raw/obj/H_EX500.mdlx
-- method: copy
-  name: raw/obj/H_EX500_WI_ULTF.mdlx
-  source:
-  - name: raw/obj/H_EX500_XM.mdlx
+  - name: raw/kh3/H_EX500_TRIF.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM.mdlx
   source:
-  - name: raw/obj/H_EX500_WI_BTLF.mdlx
+  - name: raw/H_EX500_XM_MAGF.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM_BTLF.mdlx
   source:
-  - name: raw/obj/H_EX500_TR_MAGF.mdlx
+  - name: raw/H_EX500_KH1F.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM_MAGF.mdlx
   source:
-  - name: raw/obj/H_EX500_NM_MAGF.mdlx
+  - name: raw/H_EX500_XM_KH1F.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM_KH1F.mdlx
   source:
-  - name: raw/obj/H_EX500_NM.mdlx
+  - name: raw/H_EX500_TRIF.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM_TRIF.mdlx
   source:
-  - name: raw/obj/H_EX500_KH1F.mdlx
+  - name: raw/H_EX500_NM.mdlx
 - method: copy
   name: raw/obj/H_EX500_XM_ULTF.mdlx
   source:
-  - name: raw/obj/H_EX500_WI_KH1F.mdlx
+  - name: raw/H_EX500_XM_ULTF.mdlx
