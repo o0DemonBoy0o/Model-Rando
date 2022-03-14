@@ -1,0 +1,1 @@
+Use the provided pkgmap_extras.json and replace the existing one in your build_from_mm folder with it or hd textures may not look correct.
