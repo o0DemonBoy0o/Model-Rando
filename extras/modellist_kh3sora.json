@@ -8,7 +8,11 @@
 			{"Name": "kh3/P_EX100_TRIF", "Type": "Full", "File": "kh3/Sora_KH3_Base", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds", "-4.dds", "-5.dds"]},
 			{"Name": "kh3/P_EX100_ULTF", "Type": "Full", "File": "kh3/Sora_KH3_Base", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds", "-4.dds", "-5.dds"]},
 			{"Name": "kh3/P_EX100_HTLF", "Type": "Full", "File": "kh3/Sora_KH3_Anti", "Directory": "Mod", "HDAssets": ["-0.dds","-1.dds","-2.dds","-3.dds"]}
-		]
+		],
+		"Donald": [],
+		"Goofy": [],
+		"JackS": [],
+		"Beast": []
 	},
 	"Weapon": {},
 	"Chest": {},
@@ -21,6 +25,8 @@
 			{"Name": "kh3/H_EX500_KH1F", "Type": "Raw"},
 			{"Name": "kh3/H_EX500_TRIF", "Type": "Raw"},
 			{"Name": "kh3/H_EX500_ULTF", "Type": "Raw"}
-		]
+		],
+		"Donald": [],
+		"Goofy": []
 	}
 }

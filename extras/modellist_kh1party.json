@@ -1,0 +1,23 @@
+{
+	"Party": {
+		"Sora": [],
+		"Donald": [
+			{"Name": "kh1/P_EX020_DC", "Type": "Full", "File": "kh1/Donald_KH1", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "kh1/P_EX020_ZZ", "Type": "Full", "File": "kh1/Donald_Casual", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]}
+		],
+		"Goofy": [
+			{"Name": "kh1/P_EX030_DC", "Type": "Full", "File": "kh1/Goofy_KH1", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "kh1/P_EX030_ZZ", "Type": "Full", "File": "kh1/Goofy_Casual", "Directory": "Mod", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]}
+		],
+		"JackS": [],
+		"Beast": []
+	},
+	"Weapon": {},
+	"Chest": {},
+	"Enemy": {},
+	"HighPoly":{
+		"Sora": [],
+		"Donald": [],
+		"Goofy": []
+	}
+}
