@@ -48,7 +48,35 @@
 			{"Name": "P_EX100_TR_HTLF", "Type": "Orig", "File": "Sora_Anti_TR"},
 			{"Name": "P_EX100_WI_HTLF", "Type": "Full", "File": "Sora_Anti", "Directory": "Extracted", "HDAssets": ["-0.dds"]},
 			{"Name": "P_EX100_XM_HTLF", "Type": "Full", "File": "Sora_Anti", "Directory": "Extracted", "HDAssets": ["-0.dds","-1.dds","-2.dds","-3.dds"]}
-		]
+		],
+		"Donald": [
+			{"Name": "P_EX020", "Type": "Full", "File": "Donald_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-3.dds", "-1.dds"]},
+			{"Name": "P_EX020_RTN", "Type": "Full", "File": "Donald_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-3.dds", "-1.dds"]},
+			{"Name": "P_EX020_NOBG_RTN", "Type": "Full", "File": "Donald_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-3.dds", "-1.dds"]},
+			{"Name": "P_EX020_WM", "Type": "Full", "File": "Donald_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-3.dds", "-1.dds"]},
+			{"Name": "P_EX020_NM", "Type": "Full", "File": "Donald_NM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-1.dds"]},
+			{"Name": "P_EX020_NM_RTN", "Type": "Full", "File": "Donald_NM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-2.dds", "-1.dds"]},
+			{"Name": "P_EX020_TR", "Type": "Orig", "File": "Donald_TR"},
+			{"Name": "P_EX020_TR_RTN", "Type": "Orig", "File": "Donald_TR"},
+			{"Name": "P_EX020_TR_TSURU", "Type": "Orig", "File": "Donald_TR_T"},
+			{"Name": "P_EX020_XM", "Type": "Full", "File": "Donald_XM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-3.dds", "-2.dds"]},
+			{"Name": "P_EX020_XM_RTN", "Type": "Full", "File": "Donald_XM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-3.dds", "-2.dds"]}
+		],
+		"Goofy": [
+			{"Name": "P_EX030", "Type": "Full", "File": "Goofy_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "P_EX030_RTN", "Type": "Full", "File": "Goofy_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "P_EX030_NOBG_RTN", "Type": "Full", "File": "Goofy_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "P_EX030_WM", "Type": "Full", "File": "Goofy_Base", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-3.dds"]},
+			{"Name": "P_EX030_NM", "Type": "Full", "File": "Goofy_NM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-3.dds", "-2.dds"]},
+			{"Name": "P_EX030_NM_RTN", "Type": "Full", "File": "Goofy_NM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-3.dds", "-2.dds"]},
+			{"Name": "P_EX030_TR", "Type": "Orig", "File": "Goofy_TR"},
+			{"Name": "P_EX030_TR_RTN", "Type": "Orig", "File": "Goofy_TR"},
+			{"Name": "P_EX030_TR_TSURU", "Type": "Orig", "File": "Goofy_TR_T"},
+			{"Name": "P_EX030_XM", "Type": "Full", "File": "Goofy_XM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-6.dds", "-3.dds", "-4.dds", "-5.dds"]},
+			{"Name": "P_EX030_XM_RTN", "Type": "Full", "File": "Goofy_XM", "Directory": "Extracted", "HDAssets": ["-0.dds", "-1.dds", "-2.dds", "-6.dds", "-3.dds", "-4.dds", "-5.dds"]}
+		],
+		"JackS": [],
+		"Beast": []
 	},
 	"Weapon": {},
 	"Chest": {},

@@ -93,12 +93,13 @@ for category in modellist:
             new_name = rand_file.get("Name") #replacement name
             new_type = rand_file.get("Type") #replacement type
             new_file = rand_file.get("File") #replacement file (for .tim and .model)
-            if new_type == "Full":
-                fileDir = rand_file.get("Directory") #two choices, "Extracted" and "Mod". Extracted will grab hd textures from game extracted files, Mod will grab hd textures from this mod folder.
-                HDList = rand_file.get("HDAssets") #list of hd textures. the order of this list should match how the patcher scans the sd file.
-                writemodelFull(old_name, new_name, new_file, fileDir, HDList)
-            elif new_type == "Orig":
-                writemodelOrig(old_name, new_file)
-            elif new_type == "Raw":
-                writemodelRaw(old_name, new_name)
+            if not "TR_TSURU" in old_name:
+                if new_type == "Full":
+                    fileDir = rand_file.get("Directory") #two choices, "Extracted" and "Mod". Extracted will grab hd textures from game extracted files, Mod will grab hd textures from this mod folder.
+                    HDList = rand_file.get("HDAssets") #list of hd textures. the order of this list should match how the patcher scans the sd file.
+                    writemodelFull(old_name, new_name, new_file, fileDir, HDList)
+                elif new_type == "Orig":
+                    writemodelOrig(old_name, new_file)
+                elif new_type == "Raw":
+                    writemodelRaw(old_name, new_name)
 f.close()
